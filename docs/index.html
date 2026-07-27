@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Market Regime Monitor</title>
+  <meta name="description" content="A daily read on the US equity market regime, computed two ways: a transparent rule-based composite and a 4-state statistical HMM." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A7%AD%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <div class="brand">
+        <h1>🧭 Market Regime Monitor</h1>
+        <span class="tag">US Equities</span>
+      </div>
+      <div class="header-meta">
+        <span>As of <b id="as-of">—</b></span>
+        <span class="chip" id="freshness"><span class="dot"></span><span id="freshness-txt">—</span></span>
+        <button class="theme-toggle" id="theme-toggle" title="Toggle theme">◐</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap" id="app">
+    <!-- Hero: the two engines side by side -->
+    <section class="hero" aria-label="Current regime read">
+      <article class="engine-card" id="card-rule">
+        <div class="eyebrow"><span>Rule-based composite</span><span>transparent</span></div>
+        <div class="regime-headline">
+          <span class="regime-swatch"></span>
+          <div>
+            <div class="regime-name" id="rule-name">—</div>
+          </div>
+        </div>
+        <div class="regime-blurb" id="rule-blurb"></div>
+        <div class="confidence-row">
+          <span>confidence</span>
+          <span class="meter"><i id="rule-meter"></i></span>
+          <b id="rule-conf">—</b>
+        </div>
+        <dl class="diag-grid" id="rule-diag"></dl>
+      </article>
+
+      <div class="agreement" id="agreement">
+        <span class="arrows">⇄</span>
+        <span class="verdict" id="agreement-verdict">—</span>
+        <span class="note" id="agreement-note"></span>
+      </div>
+
+      <article class="engine-card" id="card-hmm">
+        <div class="eyebrow"><span>Statistical HMM</span><span>4-state</span></div>
+        <div class="regime-headline">
+          <span class="regime-swatch"></span>
+          <div>
+            <div class="regime-name" id="hmm-name">—</div>
+          </div>
+        </div>
+        <div class="regime-blurb" id="hmm-blurb"></div>
+        <div class="confidence-row">
+          <span>confidence</span>
+          <span class="meter"><i id="hmm-meter"></i></span>
+          <b id="hmm-conf">—</b>
+        </div>
+        <div class="confidence-row">
+          <span>transition risk</span>
+          <span class="chip" id="hmm-tr"><span class="dot"></span><span id="hmm-tr-txt">—</span></span>
+        </div>
+      </article>
+    </section>
+
+    <!-- HMM probability breakdown -->
+    <section class="panel">
+      <h2>Regime probabilities</h2>
+      <p class="sub">The HMM's posterior across the four states for the latest bar.</p>
+      <div class="prob-bars" id="prob-bars"></div>
+    </section>
+
+    <!-- Historical ribbon -->
+    <section class="panel">
+      <h2>Regime history</h2>
+      <p class="sub" id="ribbon-sub">SPY with both engines' regime classification over time.</p>
+      <div class="legend" id="ribbon-legend"></div>
+      <div class="ribbon-wrap">
+        <div id="ribbon"></div>
+        <div class="ribbon-tooltip" id="ribbon-tooltip"></div>
+      </div>
+    </section>
+
+    <!-- Methodology -->
+    <section class="panel methodology">
+      <h2>How it works</h2>
+      <div class="cols">
+        <div>
+          <h3>Rule-based composite</h3>
+          <p>A deterministic classifier combining three diagnostics from classic
+          technical statistics: <b>trend</b> (EMA 21/50/200 stack + rolling
+          log-price regression), <b>volatility</b> (ATR% and a Bollinger-vs-Keltner
+          squeeze), and <b>chop</b> (Wilder ADX). Fully explainable — no trained
+          model.</p>
+        </div>
+        <div>
+          <h3>Statistical HMM</h3>
+          <p>A 4-state Gaussian Hidden Markov Model over a standardized,
+          PCA-whitened feature vector built entirely from public price data —
+          SPY trend spreads, VIX percentile &amp; slope, sector-ETF breadth,
+          credit spread, copper/gold, and yield-curve proxies. Reports a Bayesian
+          posterior over the four regimes.</p>
+        </div>
+      </div>
+      <div class="disclaimer" id="disclaimer">
+        <b>Not investment advice.</b> This is a research / portfolio project that
+        describes the market's current <i>state</i>, not what to buy or sell. The
+        HMM is a fixed snapshot trained on ~2022–2026 data and is not continuously
+        retrained.
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>Data via <code>yfinance</code> · generated <span id="generated">—</span></span>
+      <span><a href="https://github.com/" id="repo-link" target="_blank" rel="noopener">source on GitHub</a></span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
