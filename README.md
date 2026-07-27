@@ -1,7 +1,12 @@
 # Market Regime Monitor
 
+[![Update regime data](https://github.com/myreprise/market-regime-monitor/actions/workflows/update.yml/badge.svg)](https://github.com/myreprise/market-regime-monitor/actions/workflows/update.yml)
+
+### ▶ Live dashboard: **https://myreprise.github.io/market-regime-monitor/**
+
 A daily read on the U.S. equity market **regime**, computed two independent ways
-and (soon) published as a static dashboard on GitHub Pages.
+and published as a static dashboard on GitHub Pages that refreshes itself every
+weekday via GitHub Actions.
 
 - **A transparent rule-based composite** — trend + volatility + chop, from
   classic technical statistics. Fully explainable, no model artifacts.
@@ -91,12 +96,14 @@ regime_monitor/
     └── model.py            # scaler → PCA whitener → per-state Gaussian posterior
 models/                     # trained HMM artifacts (scaler, PCA, GaussianHMM, meta)
 regime_pipeline.py          # entry point → docs/data/*.json
-docs/                       # static GitHub Pages site (Phase 2)
+docs/                       # static GitHub Pages site (dependency-free HTML/CSS/SVG)
+.github/workflows/          # scheduled job that refreshes the data
 ```
 
 The whole thing runs on price data through a single command, which is what makes
-it deployable as a free, self-refreshing GitHub Pages site (a scheduled GitHub
-Action reruns the pipeline and commits fresh JSON — Phase 3).
+it deployable as a free, self-refreshing GitHub Pages site: a scheduled GitHub
+Action (`.github/workflows/update.yml`) reruns the pipeline each weekday evening,
+commits the fresh `docs/data/*.json`, and GitHub Pages republishes automatically.
 
 ---
 
