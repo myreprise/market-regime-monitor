@@ -1,0 +1,37 @@
+{
+  "trained_at": "2026-07-03T11:38:46.080836",
+  "train_start": "2022-07-06",
+  "train_end": "2026-07-02",
+  "n_samples": 1002,
+  "feature_names": [
+    "spy_ema21_spread",
+    "spy_ema50_spread",
+    "spy_ema200_spread",
+    "qqq_spy_rel_21d",
+    "vix_pctl_252d",
+    "vix_slope_10d",
+    "breadth_ema50",
+    "spy_return_126d",
+    "credit_spread_21d",
+    "tlt_return_21d",
+    "copper_gold_21d",
+    "vix_accel_5d",
+    "credit_spread_momentum",
+    "breadth_acceleration",
+    "tsy_3m_yield_slope",
+    "fed_funds_futures_slope",
+    "yield_curve_slope_10y2y",
+    "recession_probability_nyfed"
+  ],
+  "state_labels": {
+    "0": "Risk-On",
+    "2": "Risk-On-Retreat",
+    "1": "Risk-Off",
+    "3": "Risk-Off-Stable"
+  },
+  "n_regimes": 4,
+  "best_log_likelihood": -11811.324214503236,
+  "n_restarts_run": 20,
+  "pca_whitening": true,
+  "pca_n_components": 11
+}

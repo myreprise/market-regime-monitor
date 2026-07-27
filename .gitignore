@@ -1,0 +1,13 @@
+# Build artifacts / caches
+__pycache__/
+*.pyc
+.pytest_cache/
+data/ohlcv_cache/
+
+# OS
+.DS_Store
+
+# Local env
+.venv/
+venv/
+.env
