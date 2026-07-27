@@ -1,6 +1,6 @@
 {
   "as_of": "2026-07-23",
-  "generated_at": "2026-07-27T06:07:05Z",
+  "generated_at": "2026-07-27T06:08:14Z",
   "horizons": [
     5,
     21,
@@ -14,91 +14,91 @@
     "5": [
       {
         "regime": "Risk-On",
-        "mean": 0.14,
-        "median": 0.3,
-        "hit_rate": 58.1,
-        "n": 3405
+        "mean": 0.09,
+        "median": 0.28,
+        "hit_rate": 56.9,
+        "n": 3263
       },
       {
         "regime": "Risk-Off-Stable",
-        "mean": 0.4,
-        "median": 0.71,
-        "hit_rate": 61.6,
-        "n": 1526
+        "mean": 0.43,
+        "median": 0.58,
+        "hit_rate": 59.7,
+        "n": 829
       },
       {
         "regime": "Risk-Off",
-        "mean": 0.16,
-        "median": 0.31,
-        "hit_rate": 55.8,
-        "n": 1747
+        "mean": 0.26,
+        "median": 0.43,
+        "hit_rate": 59.1,
+        "n": 2632
       },
       {
         "regime": "Risk-On-Retreat",
-        "mean": -0.06,
-        "median": 0.07,
-        "hit_rate": 52.0,
-        "n": 254
+        "mean": 0.23,
+        "median": 0.27,
+        "hit_rate": 57.2,
+        "n": 208
       }
     ],
     "21": [
       {
         "regime": "Risk-On",
-        "mean": 0.58,
-        "median": 1.17,
-        "hit_rate": 64.9,
-        "n": 3389
+        "mean": 0.24,
+        "median": 0.98,
+        "hit_rate": 60.9,
+        "n": 3247
       },
       {
         "regime": "Risk-Off-Stable",
-        "mean": 1.71,
-        "median": 2.48,
-        "hit_rate": 72.4,
-        "n": 1526
+        "mean": 2.29,
+        "median": 2.7,
+        "hit_rate": 73.8,
+        "n": 829
       },
       {
         "regime": "Risk-Off",
-        "mean": 0.42,
-        "median": 0.95,
-        "hit_rate": 57.1,
-        "n": 1747
+        "mean": 0.98,
+        "median": 1.59,
+        "hit_rate": 66.0,
+        "n": 2632
       },
       {
         "regime": "Risk-On-Retreat",
-        "mean": 1.08,
-        "median": 1.54,
-        "hit_rate": 61.4,
-        "n": 254
+        "mean": 1.46,
+        "median": 1.65,
+        "hit_rate": 63.9,
+        "n": 208
       }
     ],
     "63": [
       {
         "regime": "Risk-On",
-        "mean": 2.16,
-        "median": 3.27,
-        "hit_rate": 71.1,
-        "n": 3347
+        "mean": 1.46,
+        "median": 2.91,
+        "hit_rate": 66.2,
+        "n": 3205
       },
       {
         "regime": "Risk-Off-Stable",
-        "mean": 4.05,
-        "median": 5.32,
-        "hit_rate": 77.0,
-        "n": 1526
+        "mean": 4.8,
+        "median": 6.21,
+        "hit_rate": 77.4,
+        "n": 829
       },
       {
         "regime": "Risk-Off",
-        "mean": 1.22,
-        "median": 2.51,
-        "hit_rate": 58.7,
-        "n": 1747
+        "mean": 2.51,
+        "median": 3.72,
+        "hit_rate": 69.3,
+        "n": 2632
       },
       {
         "regime": "Risk-On-Retreat",
-        "mean": 3.29,
-        "median": 4.3,
-        "hit_rate": 67.3,
-        "n": 254
+        "mean": 5.27,
+        "median": 4.52,
+        "hit_rate": 77.9,
+        "n": 208
       }
     ]
   },
