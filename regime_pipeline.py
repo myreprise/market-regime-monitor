@@ -214,9 +214,15 @@ def main() -> None:
         "spy": spy_series,
     }
 
-    (out_dir / "latest.json").write_text(json.dumps(latest, indent=2))
-    (out_dir / "history.json").write_text(json.dumps(history, indent=2))
-    (out_dir / "validation.json").write_text(json.dumps(validation, indent=2))
+    # allow_nan=False → raise rather than emit invalid JSON (NaN/Infinity) that
+    # the browser's JSON.parse would reject. A loud CI failure keeps the last
+    # good data published instead of breaking the live site.
+    def _dump(obj):
+        return json.dumps(obj, indent=2, allow_nan=False)
+
+    (out_dir / "latest.json").write_text(_dump(latest))
+    (out_dir / "history.json").write_text(_dump(history))
+    (out_dir / "validation.json").write_text(_dump(validation))
     print(f"Wrote latest.json, history.json, validation.json → {out_dir}")
     print(f"  ribbon: {len(hmm_window)} HMM bars, {len(rule_hist)} rule-based bars, {len(spy_series)} SPY points")
     for h in HORIZONS:

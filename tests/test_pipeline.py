@@ -21,6 +21,10 @@ from regime_monitor.hmm.model import RegimeHMM
 from regime_monitor.rule_based.detector import detect_regime
 from regime_monitor.rule_based.history import rule_based_history
 
+def _reject_constant(x):
+    raise AssertionError(f"JSON contains non-finite constant: {x}")
+
+
 RULE_LABELS = {"bull", "bear", "range", "bull_high_vol", "bear_high_vol", "high_vol"}
 HMM_LABELS = {"Risk-On", "Risk-On-Retreat", "Risk-Off", "Risk-Off-Stable"}
 
@@ -83,6 +87,12 @@ def test_emitted_json_schema(tmp_path):
 
     sys.argv = ["regime_pipeline.py", "--cache-only", "--history-years", "2", "--out", str(tmp_path)]
     regime_pipeline.main()
+
+    # Emitted JSON must be strictly valid (no NaN/Infinity — the browser's
+    # JSON.parse rejects them and the site would fail to load).
+    for name in ("latest.json", "history.json", "validation.json"):
+        raw = (tmp_path / name).read_text()
+        json.loads(raw, parse_constant=_reject_constant)
 
     latest = json.loads((tmp_path / "latest.json").read_text())
     for key in ("as_of", "spy_close", "rule_based", "hmm", "data_freshness", "agreement"):

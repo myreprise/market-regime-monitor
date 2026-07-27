@@ -41,7 +41,13 @@ def _normalize(df: pd.DataFrame) -> pd.DataFrame:
     if df.index.tz is not None:
         df.index = df.index.tz_localize(None)
     df = df[~df.index.duplicated(keep="last")].sort_index()
-    return df.dropna(how="all")
+    df = df.dropna(how="all")
+    # Drop rows with no close — yfinance can return a trailing NaN bar for the
+    # current/partial day, which would poison indicators and (worse) emit NaN
+    # into the JSON. The close is the one column everything depends on.
+    if "close" in df.columns:
+        df = df[df["close"].notna()]
+    return df
 
 
 def fetch_ohlcv(
