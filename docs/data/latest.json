@@ -1,22 +1,22 @@
 {
-  "as_of": "2026-07-23",
-  "generated_at": "2026-07-27T05:58:10Z",
-  "spy_close": 738.18,
+  "as_of": "2026-07-24",
+  "generated_at": "2026-07-27T05:59:41Z",
+  "spy_close": NaN,
   "data_freshness": {
-    "last_bar": "2026-07-23",
-    "days_since_last_bar": 4,
+    "last_bar": "2026-07-24",
+    "days_since_last_bar": 3,
     "tickers_loaded": 21
   },
   "rule_based": {
-    "regime": "bull",
-    "direction": "Risk-On",
-    "confidence": 0.422,
-    "trend": "up",
-    "ema_stack": "bull",
-    "vol": "normal",
-    "atr_percent": 1.12,
+    "regime": "range",
+    "direction": "Range / Neutral",
+    "confidence": 0.455,
+    "trend": "flat",
+    "ema_stack": "mixed",
+    "vol": "extreme",
+    "atr_percent": NaN,
     "chop": "choppy",
-    "adx": 18.7
+    "adx": 19.7
   },
   "hmm": {
     "regime": "Risk-On",
@@ -29,5 +29,5 @@
       "Risk-Off-Stable": 0.0
     }
   },
-  "agreement": true
+  "agreement": false
 }

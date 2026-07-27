@@ -1,11 +1,7 @@
 {
-  "as_of": "2026-07-23",
-  "generated_at": "2026-07-27T05:58:10Z",
+  "as_of": "2026-07-24",
+  "generated_at": "2026-07-27T05:59:41Z",
   "hmm": [
-    {
-      "date": "2021-07-23",
-      "regime": "Risk-On"
-    },
     {
       "date": "2021-07-26",
       "regime": "Risk-On"
@@ -324,7 +320,7 @@
     },
     {
       "date": "2021-11-15",
-      "regime": "Risk-Off"
+      "regime": "Risk-On"
     },
     {
       "date": "2021-11-16",
@@ -760,7 +756,7 @@
     },
     {
       "date": "2022-04-22",
-      "regime": "Risk-Off"
+      "regime": "Risk-Off-Stable"
     },
     {
       "date": "2022-04-25",
@@ -768,11 +764,11 @@
     },
     {
       "date": "2022-04-26",
-      "regime": "Risk-Off"
+      "regime": "Risk-Off-Stable"
     },
     {
       "date": "2022-04-27",
-      "regime": "Risk-Off"
+      "regime": "Risk-On"
     },
     {
       "date": "2022-04-28",
@@ -780,11 +776,11 @@
     },
     {
       "date": "2022-04-29",
-      "regime": "Risk-Off"
+      "regime": "Risk-Off-Stable"
     },
     {
       "date": "2022-05-02",
-      "regime": "Risk-Off-Stable"
+      "regime": "Risk-On"
     },
     {
       "date": "2022-05-03",
@@ -800,7 +796,7 @@
     },
     {
       "date": "2022-05-06",
-      "regime": "Risk-Off-Stable"
+      "regime": "Risk-On"
     },
     {
       "date": "2022-05-09",
@@ -840,11 +836,11 @@
     },
     {
       "date": "2022-05-20",
-      "regime": "Risk-Off-Stable"
+      "regime": "Risk-Off"
     },
     {
       "date": "2022-05-23",
-      "regime": "Risk-Off-Stable"
+      "regime": "Risk-Off"
     },
     {
       "date": "2022-05-24",
@@ -1000,7 +996,7 @@
     },
     {
       "date": "2022-07-20",
-      "regime": "Risk-Off-Stable"
+      "regime": "Risk-Off"
     },
     {
       "date": "2022-07-21",
@@ -1376,15 +1372,15 @@
     },
     {
       "date": "2022-12-01",
-      "regime": "Risk-Off"
+      "regime": "Risk-On-Retreat"
     },
     {
       "date": "2022-12-02",
-      "regime": "Risk-Off"
+      "regime": "Risk-On-Retreat"
     },
     {
       "date": "2022-12-05",
-      "regime": "Risk-Off"
+      "regime": "Risk-On-Retreat"
     },
     {
       "date": "2022-12-06",
@@ -1444,7 +1440,7 @@
     },
     {
       "date": "2022-12-27",
-      "regime": "Risk-Off"
+      "regime": "Risk-On-Retreat"
     },
     {
       "date": "2022-12-28",
@@ -1488,7 +1484,7 @@
     },
     {
       "date": "2023-01-12",
-      "regime": "Risk-Off"
+      "regime": "Risk-On-Retreat"
     },
     {
       "date": "2023-01-13",
@@ -1504,15 +1500,15 @@
     },
     {
       "date": "2023-01-19",
-      "regime": "Risk-Off"
+      "regime": "Risk-On-Retreat"
     },
     {
       "date": "2023-01-20",
-      "regime": "Risk-Off"
+      "regime": "Risk-On-Retreat"
     },
     {
       "date": "2023-01-23",
-      "regime": "Risk-Off"
+      "regime": "Risk-On-Retreat"
     },
     {
       "date": "2023-01-24",
@@ -1520,43 +1516,43 @@
     },
     {
       "date": "2023-01-25",
-      "regime": "Risk-Off"
+      "regime": "Risk-On-Retreat"
     },
     {
       "date": "2023-01-26",
-      "regime": "Risk-Off"
+      "regime": "Risk-On-Retreat"
     },
     {
       "date": "2023-01-27",
-      "regime": "Risk-Off"
+      "regime": "Risk-On-Retreat"
     },
     {
       "date": "2023-01-30",
-      "regime": "Risk-Off"
+      "regime": "Risk-On-Retreat"
     },
     {
       "date": "2023-01-31",
-      "regime": "Risk-Off"
+      "regime": "Risk-On-Retreat"
     },
     {
       "date": "2023-02-01",
-      "regime": "Risk-Off"
+      "regime": "Risk-On-Retreat"
     },
     {
       "date": "2023-02-02",
-      "regime": "Risk-Off"
+      "regime": "Risk-On-Retreat"
     },
     {
       "date": "2023-02-03",
-      "regime": "Risk-Off"
+      "regime": "Risk-On-Retreat"
     },
     {
       "date": "2023-02-06",
-      "regime": "Risk-Off"
+      "regime": "Risk-On-Retreat"
     },
     {
       "date": "2023-02-07",
-      "regime": "Risk-Off"
+      "regime": "Risk-On-Retreat"
     },
     {
       "date": "2023-02-08",
@@ -1580,7 +1576,7 @@
     },
     {
       "date": "2023-02-15",
-      "regime": "Risk-On-Retreat"
+      "regime": "Risk-Off"
     },
     {
       "date": "2023-02-16",
@@ -1940,7 +1936,7 @@
     },
     {
       "date": "2023-06-27",
-      "regime": "Risk-On-Retreat"
+      "regime": "Risk-Off"
     },
     {
       "date": "2023-06-28",
@@ -2212,7 +2208,7 @@
     },
     {
       "date": "2023-10-03",
-      "regime": "Risk-Off"
+      "regime": "Risk-On-Retreat"
     },
     {
       "date": "2023-10-04",
@@ -2220,7 +2216,7 @@
     },
     {
       "date": "2023-10-05",
-      "regime": "Risk-Off"
+      "regime": "Risk-On-Retreat"
     },
     {
       "date": "2023-10-06",
@@ -2620,7 +2616,7 @@
     },
     {
       "date": "2024-02-29",
-      "regime": "Risk-On"
+      "regime": "Risk-On-Retreat"
     },
     {
       "date": "2024-03-01",
@@ -3004,7 +3000,7 @@
     },
     {
       "date": "2024-07-18",
-      "regime": "Risk-Off-Stable"
+      "regime": "Risk-On"
     },
     {
       "date": "2024-07-19",
@@ -5024,10 +5020,6 @@
     }
   ],
   "rule_based": [
-    {
-      "date": "2021-07-23",
-      "regime": "bull"
-    },
     {
       "date": "2021-07-26",
       "regime": "bull"
@@ -10047,10 +10039,6 @@
   ],
   "spy": [
     {
-      "date": "2021-07-23",
-      "close": 411.18
-    },
-    {
       "date": "2021-07-26",
       "close": 412.19
     },
@@ -10328,7 +10316,7 @@
     },
     {
       "date": "2021-11-01",
-      "close": 431.34
+      "close": 431.35
     },
     {
       "date": "2021-11-02",
@@ -10920,7 +10908,7 @@
     },
     {
       "date": "2022-06-03",
-      "close": 387.48
+      "close": 387.49
     },
     {
       "date": "2022-06-06",
@@ -11428,7 +11416,7 @@
     },
     {
       "date": "2022-12-05",
-      "close": 380.34
+      "close": 380.33
     },
     {
       "date": "2022-12-06",
@@ -11692,7 +11680,7 @@
     },
     {
       "date": "2023-03-13",
-      "close": 368.47
+      "close": 368.48
     },
     {
       "date": "2023-03-14",
@@ -15065,6 +15053,10 @@
     {
       "date": "2026-07-23",
       "close": 738.18
+    },
+    {
+      "date": "2026-07-24",
+      "close": NaN
     }
   ]
 }
