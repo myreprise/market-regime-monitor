@@ -1,18 +1,7 @@
 {
-  "as_of": "2026-07-23",
-  "generated_at": "2026-07-27T04:29:01Z",
+  "as_of": "2026-07-24",
+  "generated_at": "2026-07-27T05:27:50Z",
   "hmm": [
-    {
-      "date": "2021-07-23",
-      "regime": "Risk-On",
-      "risk_on_pct": 100.0,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
-      "transition_risk": "Low",
-      "confidence": 1.0
-    },
     {
       "date": "2021-07-26",
       "regime": "Risk-On",
@@ -104,17 +93,6 @@
     {
       "date": "2021-08-05",
       "regime": "Risk-Off",
-      "risk_on_pct": 18.7,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 81.3,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
-      "transition_risk": "Moderate",
-      "confidence": 0.813
-    },
-    {
-      "date": "2021-08-06",
-      "regime": "Risk-Off",
       "risk_on_pct": 16.2,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 83.8,
@@ -122,6 +100,17 @@
       "neutral_pct": 0.0,
       "transition_risk": "Moderate",
       "confidence": 0.838
+    },
+    {
+      "date": "2021-08-06",
+      "regime": "Risk-Off",
+      "risk_on_pct": 14.8,
+      "risk_on_retreat_pct": 0.0,
+      "risk_off_pct": 85.2,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 0.0,
+      "transition_risk": "Moderate",
+      "confidence": 0.852
     },
     {
       "date": "2021-08-09",
@@ -665,13 +654,13 @@
     {
       "date": "2021-10-18",
       "regime": "Risk-Off",
-      "risk_on_pct": 0.1,
+      "risk_on_pct": 0.2,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 99.9,
+      "risk_off_pct": 99.8,
       "risk_off_stable_pct": 0.0,
       "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 0.998
     },
     {
       "date": "2021-10-19",
@@ -874,24 +863,24 @@
     {
       "date": "2021-11-12",
       "regime": "Risk-On",
-      "risk_on_pct": 99.7,
+      "risk_on_pct": 100.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 0.3,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
       "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.997
+      "confidence": 1.0
     },
     {
       "date": "2021-11-15",
-      "regime": "Risk-Off",
-      "risk_on_pct": 4.3,
+      "regime": "Risk-On",
+      "risk_on_pct": 96.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 95.7,
+      "risk_off_pct": 4.0,
       "risk_off_stable_pct": 0.0,
       "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.957
+      "confidence": 0.96
     },
     {
       "date": "2021-11-16",
@@ -1479,24 +1468,24 @@
     {
       "date": "2022-02-02",
       "regime": "Risk-On",
-      "risk_on_pct": 98.7,
+      "risk_on_pct": 98.1,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 1.3,
-      "neutral_pct": 1.3,
+      "risk_off_stable_pct": 1.9,
+      "neutral_pct": 1.9,
       "transition_risk": "Low",
-      "confidence": 0.987
+      "confidence": 0.981
     },
     {
       "date": "2022-02-03",
       "regime": "Risk-On",
-      "risk_on_pct": 64.5,
+      "risk_on_pct": 66.2,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 35.5,
-      "neutral_pct": 35.5,
+      "risk_off_stable_pct": 33.8,
+      "neutral_pct": 33.8,
       "transition_risk": "Elevated",
-      "confidence": 0.645
+      "confidence": 0.662
     },
     {
       "date": "2022-02-04",
@@ -1600,24 +1589,24 @@
     {
       "date": "2022-02-17",
       "regime": "Risk-Off",
-      "risk_on_pct": 7.8,
+      "risk_on_pct": 1.5,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 90.3,
-      "risk_off_stable_pct": 1.9,
-      "neutral_pct": 1.9,
+      "risk_off_pct": 97.1,
+      "risk_off_stable_pct": 1.5,
+      "neutral_pct": 1.5,
       "transition_risk": "Low",
-      "confidence": 0.903
+      "confidence": 0.971
     },
     {
       "date": "2022-02-18",
       "regime": "Risk-On",
-      "risk_on_pct": 98.1,
+      "risk_on_pct": 98.2,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 0.5,
-      "risk_off_stable_pct": 1.5,
-      "neutral_pct": 1.5,
+      "risk_off_pct": 0.4,
+      "risk_off_stable_pct": 1.3,
+      "neutral_pct": 1.3,
       "transition_risk": "Low",
-      "confidence": 0.981
+      "confidence": 0.982
     },
     {
       "date": "2022-02-22",
@@ -1677,24 +1666,24 @@
     {
       "date": "2022-03-01",
       "regime": "Risk-Off-Stable",
-      "risk_on_pct": 3.6,
+      "risk_on_pct": 0.1,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 0.3,
-      "risk_off_stable_pct": 96.0,
-      "neutral_pct": 96.0,
+      "risk_off_pct": 1.9,
+      "risk_off_stable_pct": 98.0,
+      "neutral_pct": 98.0,
       "transition_risk": "Low",
-      "confidence": 0.96
+      "confidence": 0.98
     },
     {
       "date": "2022-03-02",
       "regime": "Risk-On",
-      "risk_on_pct": 99.9,
+      "risk_on_pct": 92.1,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 0.1,
-      "neutral_pct": 0.1,
+      "risk_off_stable_pct": 7.9,
+      "neutral_pct": 7.9,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 0.921
     },
     {
       "date": "2022-03-03",
@@ -1710,24 +1699,24 @@
     {
       "date": "2022-03-04",
       "regime": "Risk-Off-Stable",
-      "risk_on_pct": 37.0,
+      "risk_on_pct": 3.0,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 63.0,
-      "neutral_pct": 63.0,
-      "transition_risk": "Elevated",
-      "confidence": 0.63
+      "risk_off_stable_pct": 97.0,
+      "neutral_pct": 97.0,
+      "transition_risk": "Low",
+      "confidence": 0.97
     },
     {
       "date": "2022-03-07",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 94.4,
-      "risk_off_stable_pct": 5.6,
-      "neutral_pct": 5.6,
+      "risk_off_pct": 98.5,
+      "risk_off_stable_pct": 1.5,
+      "neutral_pct": 1.5,
       "transition_risk": "Low",
-      "confidence": 0.944
+      "confidence": 0.985
     },
     {
       "date": "2022-03-08",
@@ -1756,11 +1745,11 @@
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 99.9,
-      "risk_off_stable_pct": 0.1,
-      "neutral_pct": 0.1,
+      "risk_off_pct": 100.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 1.0
     },
     {
       "date": "2022-03-11",
@@ -1823,10 +1812,10 @@
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.1,
-      "risk_off_stable_pct": 99.8,
-      "neutral_pct": 99.8,
+      "risk_off_stable_pct": 99.9,
+      "neutral_pct": 99.9,
       "transition_risk": "Low",
-      "confidence": 0.998
+      "confidence": 0.999
     },
     {
       "date": "2022-03-21",
@@ -1899,11 +1888,11 @@
       "regime": "Risk-Off-Stable",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 100.0,
-      "neutral_pct": 100.0,
+      "risk_off_pct": 0.2,
+      "risk_off_stable_pct": 99.8,
+      "neutral_pct": 99.8,
       "transition_risk": "Low",
-      "confidence": 1.0
+      "confidence": 0.998
     },
     {
       "date": "2022-03-30",
@@ -1930,13 +1919,13 @@
     {
       "date": "2022-04-01",
       "regime": "Risk-On",
-      "risk_on_pct": 99.9,
+      "risk_on_pct": 100.0,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 0.1,
-      "neutral_pct": 0.1,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 1.0
     },
     {
       "date": "2022-04-04",
@@ -2083,47 +2072,47 @@
     },
     {
       "date": "2022-04-22",
-      "regime": "Risk-Off",
-      "risk_on_pct": 1.8,
+      "regime": "Risk-Off-Stable",
+      "risk_on_pct": 22.2,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 92.0,
-      "risk_off_stable_pct": 6.2,
-      "neutral_pct": 6.2,
-      "transition_risk": "Low",
-      "confidence": 0.92
+      "risk_off_pct": 29.2,
+      "risk_off_stable_pct": 48.6,
+      "neutral_pct": 48.6,
+      "transition_risk": "Elevated",
+      "confidence": 0.486
     },
     {
       "date": "2022-04-25",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 100.0,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
+      "risk_off_pct": 99.9,
+      "risk_off_stable_pct": 0.1,
+      "neutral_pct": 0.1,
       "transition_risk": "Low",
-      "confidence": 1.0
+      "confidence": 0.999
     },
     {
       "date": "2022-04-26",
-      "regime": "Risk-Off",
-      "risk_on_pct": 1.0,
+      "regime": "Risk-Off-Stable",
+      "risk_on_pct": 28.6,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 85.7,
-      "risk_off_stable_pct": 13.3,
-      "neutral_pct": 13.3,
-      "transition_risk": "Moderate",
-      "confidence": 0.857
+      "risk_off_pct": 21.9,
+      "risk_off_stable_pct": 49.5,
+      "neutral_pct": 49.5,
+      "transition_risk": "Elevated",
+      "confidence": 0.495
     },
     {
       "date": "2022-04-27",
-      "regime": "Risk-Off",
-      "risk_on_pct": 0.8,
+      "regime": "Risk-On",
+      "risk_on_pct": 63.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 99.2,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
-      "transition_risk": "Low",
-      "confidence": 0.992
+      "risk_off_pct": 36.8,
+      "risk_off_stable_pct": 0.2,
+      "neutral_pct": 0.2,
+      "transition_risk": "Elevated",
+      "confidence": 0.63
     },
     {
       "date": "2022-04-28",
@@ -2138,25 +2127,25 @@
     },
     {
       "date": "2022-04-29",
-      "regime": "Risk-Off",
+      "regime": "Risk-Off-Stable",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 97.7,
-      "risk_off_stable_pct": 2.3,
-      "neutral_pct": 2.3,
-      "transition_risk": "Low",
-      "confidence": 0.977
+      "risk_off_pct": 39.3,
+      "risk_off_stable_pct": 60.7,
+      "neutral_pct": 60.7,
+      "transition_risk": "Elevated",
+      "confidence": 0.607
     },
     {
       "date": "2022-05-02",
-      "regime": "Risk-Off-Stable",
-      "risk_on_pct": 28.5,
+      "regime": "Risk-On",
+      "risk_on_pct": 99.5,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 14.8,
-      "risk_off_stable_pct": 56.7,
-      "neutral_pct": 56.7,
-      "transition_risk": "Elevated",
-      "confidence": 0.567
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 0.5,
+      "neutral_pct": 0.5,
+      "transition_risk": "Low",
+      "confidence": 0.995
     },
     {
       "date": "2022-05-03",
@@ -2183,24 +2172,24 @@
     {
       "date": "2022-05-05",
       "regime": "Risk-On",
-      "risk_on_pct": 95.7,
+      "risk_on_pct": 100.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 1.8,
-      "risk_off_stable_pct": 2.4,
-      "neutral_pct": 2.4,
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.957
+      "confidence": 1.0
     },
     {
       "date": "2022-05-06",
-      "regime": "Risk-Off-Stable",
-      "risk_on_pct": 15.6,
+      "regime": "Risk-On",
+      "risk_on_pct": 92.7,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 0.1,
-      "risk_off_stable_pct": 84.3,
-      "neutral_pct": 84.3,
-      "transition_risk": "Moderate",
-      "confidence": 0.843
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 7.3,
+      "neutral_pct": 7.3,
+      "transition_risk": "Low",
+      "confidence": 0.927
     },
     {
       "date": "2022-05-09",
@@ -2218,11 +2207,11 @@
       "regime": "Risk-Off-Stable",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 1.4,
-      "risk_off_stable_pct": 98.6,
-      "neutral_pct": 98.6,
+      "risk_off_pct": 0.4,
+      "risk_off_stable_pct": 99.6,
+      "neutral_pct": 99.6,
       "transition_risk": "Low",
-      "confidence": 0.986
+      "confidence": 0.996
     },
     {
       "date": "2022-05-11",
@@ -2303,36 +2292,36 @@
     },
     {
       "date": "2022-05-20",
-      "regime": "Risk-Off-Stable",
+      "regime": "Risk-Off",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 4.1,
-      "risk_off_stable_pct": 95.9,
-      "neutral_pct": 95.9,
+      "risk_off_pct": 98.5,
+      "risk_off_stable_pct": 1.5,
+      "neutral_pct": 1.5,
       "transition_risk": "Low",
-      "confidence": 0.959
+      "confidence": 0.985
     },
     {
       "date": "2022-05-23",
-      "regime": "Risk-Off-Stable",
+      "regime": "Risk-Off",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 2.3,
-      "risk_off_stable_pct": 97.7,
-      "neutral_pct": 97.7,
-      "transition_risk": "Low",
-      "confidence": 0.977
+      "risk_off_pct": 58.7,
+      "risk_off_stable_pct": 41.3,
+      "neutral_pct": 41.3,
+      "transition_risk": "Elevated",
+      "confidence": 0.587
     },
     {
       "date": "2022-05-24",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 99.1,
-      "risk_off_stable_pct": 0.9,
-      "neutral_pct": 0.9,
+      "risk_off_pct": 99.9,
+      "risk_off_stable_pct": 0.1,
+      "neutral_pct": 0.1,
       "transition_risk": "Low",
-      "confidence": 0.991
+      "confidence": 0.999
     },
     {
       "date": "2022-05-25",
@@ -2526,11 +2515,11 @@
       "regime": "Risk-Off-Stable",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 100.0,
-      "neutral_pct": 100.0,
+      "risk_off_pct": 0.1,
+      "risk_off_stable_pct": 99.9,
+      "neutral_pct": 99.9,
       "transition_risk": "Low",
-      "confidence": 1.0
+      "confidence": 0.999
     },
     {
       "date": "2022-06-22",
@@ -2603,33 +2592,33 @@
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 97.0,
-      "risk_off_stable_pct": 3.0,
-      "neutral_pct": 3.0,
+      "risk_off_pct": 99.5,
+      "risk_off_stable_pct": 0.5,
+      "neutral_pct": 0.5,
       "transition_risk": "Low",
-      "confidence": 0.97
+      "confidence": 0.995
     },
     {
       "date": "2022-07-01",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 96.5,
-      "risk_off_stable_pct": 3.5,
-      "neutral_pct": 3.5,
+      "risk_off_pct": 90.6,
+      "risk_off_stable_pct": 9.4,
+      "neutral_pct": 9.4,
       "transition_risk": "Low",
-      "confidence": 0.965
+      "confidence": 0.906
     },
     {
       "date": "2022-07-05",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 55.0,
-      "risk_off_stable_pct": 45.0,
-      "neutral_pct": 45.0,
-      "transition_risk": "Elevated",
-      "confidence": 0.55
+      "risk_off_pct": 72.0,
+      "risk_off_stable_pct": 28.0,
+      "neutral_pct": 28.0,
+      "transition_risk": "Moderate",
+      "confidence": 0.72
     },
     {
       "date": "2022-07-06",
@@ -2743,25 +2732,25 @@
     },
     {
       "date": "2022-07-20",
-      "regime": "Risk-Off-Stable",
+      "regime": "Risk-Off",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 10.2,
-      "risk_off_stable_pct": 89.8,
-      "neutral_pct": 89.8,
-      "transition_risk": "Moderate",
-      "confidence": 0.898
+      "risk_off_pct": 100.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 0.0,
+      "transition_risk": "Low",
+      "confidence": 1.0
     },
     {
       "date": "2022-07-21",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 91.7,
-      "risk_off_stable_pct": 8.3,
-      "neutral_pct": 8.3,
+      "risk_off_pct": 100.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.917
+      "confidence": 1.0
     },
     {
       "date": "2022-07-22",
@@ -2790,33 +2779,33 @@
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 80.8,
-      "risk_off_stable_pct": 19.2,
-      "neutral_pct": 19.2,
-      "transition_risk": "Moderate",
-      "confidence": 0.808
+      "risk_off_pct": 98.5,
+      "risk_off_stable_pct": 1.5,
+      "neutral_pct": 1.5,
+      "transition_risk": "Low",
+      "confidence": 0.985
     },
     {
       "date": "2022-07-27",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 58.4,
-      "risk_off_stable_pct": 41.6,
-      "neutral_pct": 41.6,
-      "transition_risk": "Elevated",
-      "confidence": 0.584
+      "risk_off_pct": 83.9,
+      "risk_off_stable_pct": 16.1,
+      "neutral_pct": 16.1,
+      "transition_risk": "Moderate",
+      "confidence": 0.839
     },
     {
       "date": "2022-07-28",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 83.8,
-      "risk_off_stable_pct": 16.2,
-      "neutral_pct": 16.2,
-      "transition_risk": "Moderate",
-      "confidence": 0.838
+      "risk_off_pct": 90.5,
+      "risk_off_stable_pct": 9.5,
+      "neutral_pct": 9.5,
+      "transition_risk": "Low",
+      "confidence": 0.905
     },
     {
       "date": "2022-07-29",
@@ -2845,11 +2834,11 @@
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 98.8,
-      "risk_off_stable_pct": 1.2,
-      "neutral_pct": 1.2,
+      "risk_off_pct": 99.3,
+      "risk_off_stable_pct": 0.7,
+      "neutral_pct": 0.7,
       "transition_risk": "Low",
-      "confidence": 0.988
+      "confidence": 0.993
     },
     {
       "date": "2022-08-03",
@@ -2944,33 +2933,33 @@
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 97.9,
-      "risk_off_stable_pct": 2.1,
-      "neutral_pct": 2.1,
+      "risk_off_pct": 100.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.979
+      "confidence": 1.0
     },
     {
       "date": "2022-08-16",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 96.6,
-      "risk_off_stable_pct": 3.4,
-      "neutral_pct": 3.4,
+      "risk_off_pct": 99.9,
+      "risk_off_stable_pct": 0.1,
+      "neutral_pct": 0.1,
       "transition_risk": "Low",
-      "confidence": 0.966
+      "confidence": 0.999
     },
     {
       "date": "2022-08-17",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 97.7,
-      "risk_off_stable_pct": 2.3,
-      "neutral_pct": 2.3,
+      "risk_off_pct": 100.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.977
+      "confidence": 1.0
     },
     {
       "date": "2022-08-18",
@@ -3252,11 +3241,11 @@
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 98.6,
-      "risk_off_stable_pct": 1.4,
-      "neutral_pct": 1.4,
+      "risk_off_pct": 99.9,
+      "risk_off_stable_pct": 0.1,
+      "neutral_pct": 0.1,
       "transition_risk": "Low",
-      "confidence": 0.986
+      "confidence": 0.999
     },
     {
       "date": "2022-09-26",
@@ -3659,22 +3648,22 @@
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 99.5,
-      "risk_off_stable_pct": 0.5,
-      "neutral_pct": 0.5,
+      "risk_off_pct": 100.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.995
+      "confidence": 1.0
     },
     {
       "date": "2022-11-16",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 99.9,
+      "risk_off_pct": 100.0,
       "risk_off_stable_pct": 0.0,
       "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 1.0
     },
     {
       "date": "2022-11-17",
@@ -3768,45 +3757,45 @@
       "date": "2022-11-30",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 100.0,
+      "risk_on_retreat_pct": 0.7,
+      "risk_off_pct": 99.3,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
+      "neutral_pct": 0.7,
       "transition_risk": "Low",
-      "confidence": 1.0
+      "confidence": 0.993
     },
     {
       "date": "2022-12-01",
-      "regime": "Risk-Off",
+      "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 100.0,
+      "risk_on_retreat_pct": 91.1,
+      "risk_off_pct": 8.9,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
+      "neutral_pct": 91.1,
       "transition_risk": "Low",
-      "confidence": 1.0
+      "confidence": 0.911
     },
     {
       "date": "2022-12-02",
-      "regime": "Risk-Off",
+      "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 100.0,
+      "risk_on_retreat_pct": 99.8,
+      "risk_off_pct": 0.2,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
+      "neutral_pct": 99.8,
       "transition_risk": "Low",
-      "confidence": 1.0
+      "confidence": 0.998
     },
     {
       "date": "2022-12-05",
-      "regime": "Risk-Off",
+      "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 24.4,
-      "risk_off_pct": 75.6,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 24.4,
-      "transition_risk": "Moderate",
-      "confidence": 0.756
+      "neutral_pct": 100.0,
+      "transition_risk": "Low",
+      "confidence": 1.0
     },
     {
       "date": "2022-12-06",
@@ -3823,12 +3812,12 @@
       "date": "2022-12-07",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 72.5,
-      "risk_off_pct": 27.5,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 72.5,
-      "transition_risk": "Moderate",
-      "confidence": 0.725
+      "neutral_pct": 100.0,
+      "transition_risk": "Low",
+      "confidence": 1.0
     },
     {
       "date": "2022-12-08",
@@ -3845,17 +3834,6 @@
       "date": "2022-12-09",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.2,
-      "risk_off_pct": 0.8,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.2,
-      "transition_risk": "Low",
-      "confidence": 0.992
-    },
-    {
-      "date": "2022-12-12",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 100.0,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
@@ -3864,37 +3842,48 @@
       "confidence": 1.0
     },
     {
+      "date": "2022-12-12",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 99.9,
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 99.9,
+      "transition_risk": "Low",
+      "confidence": 0.999
+    },
+    {
       "date": "2022-12-13",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.3,
-      "risk_off_pct": 0.7,
+      "risk_on_retreat_pct": 97.7,
+      "risk_off_pct": 2.3,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.3,
+      "neutral_pct": 97.7,
       "transition_risk": "Low",
-      "confidence": 0.993
+      "confidence": 0.977
     },
     {
       "date": "2022-12-14",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 94.8,
-      "risk_off_pct": 5.2,
+      "risk_on_retreat_pct": 96.8,
+      "risk_off_pct": 3.2,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 94.8,
+      "neutral_pct": 96.8,
       "transition_risk": "Low",
-      "confidence": 0.948
+      "confidence": 0.968
     },
     {
       "date": "2022-12-15",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 98.7,
-      "risk_off_pct": 1.3,
+      "risk_on_retreat_pct": 97.9,
+      "risk_off_pct": 2.1,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 98.7,
+      "neutral_pct": 97.9,
       "transition_risk": "Low",
-      "confidence": 0.987
+      "confidence": 0.979
     },
     {
       "date": "2022-12-16",
@@ -3922,89 +3911,89 @@
       "date": "2022-12-20",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.6,
-      "risk_off_pct": 0.4,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.6,
+      "neutral_pct": 100.0,
       "transition_risk": "Low",
-      "confidence": 0.996
+      "confidence": 1.0
     },
     {
       "date": "2022-12-21",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.0,
-      "risk_off_pct": 1.0,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.0,
+      "neutral_pct": 100.0,
       "transition_risk": "Low",
-      "confidence": 0.99
+      "confidence": 1.0
     },
     {
       "date": "2022-12-22",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.9,
-      "risk_off_pct": 0.1,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.9,
+      "neutral_pct": 100.0,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 1.0
     },
     {
       "date": "2022-12-23",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 81.0,
-      "risk_off_pct": 19.0,
+      "risk_on_retreat_pct": 98.4,
+      "risk_off_pct": 1.6,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 81.0,
-      "transition_risk": "Moderate",
-      "confidence": 0.81
+      "neutral_pct": 98.4,
+      "transition_risk": "Low",
+      "confidence": 0.984
     },
     {
       "date": "2022-12-27",
-      "regime": "Risk-Off",
+      "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 33.9,
-      "risk_off_pct": 66.1,
+      "risk_on_retreat_pct": 74.9,
+      "risk_off_pct": 25.1,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 33.9,
-      "transition_risk": "Elevated",
-      "confidence": 0.661
+      "neutral_pct": 74.9,
+      "transition_risk": "Moderate",
+      "confidence": 0.749
     },
     {
       "date": "2022-12-28",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 100.0,
+      "risk_on_retreat_pct": 0.1,
+      "risk_off_pct": 99.9,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
+      "neutral_pct": 0.1,
       "transition_risk": "Low",
-      "confidence": 1.0
+      "confidence": 0.999
     },
     {
       "date": "2022-12-29",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 100.0,
+      "risk_on_retreat_pct": 0.1,
+      "risk_off_pct": 99.9,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
+      "neutral_pct": 0.1,
       "transition_risk": "Low",
-      "confidence": 1.0
+      "confidence": 0.999
     },
     {
       "date": "2022-12-30",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.4,
-      "risk_off_pct": 99.6,
+      "risk_on_retreat_pct": 1.3,
+      "risk_off_pct": 98.7,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.4,
+      "neutral_pct": 1.3,
       "transition_risk": "Low",
-      "confidence": 0.996
+      "confidence": 0.987
     },
     {
       "date": "2023-01-03",
@@ -4085,212 +4074,212 @@
     },
     {
       "date": "2023-01-12",
-      "regime": "Risk-Off",
+      "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 100.0,
+      "risk_on_retreat_pct": 58.2,
+      "risk_off_pct": 41.8,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
-      "transition_risk": "Low",
-      "confidence": 1.0
+      "neutral_pct": 58.2,
+      "transition_risk": "Elevated",
+      "confidence": 0.582
     },
     {
       "date": "2023-01-13",
       "regime": "Risk-Off",
-      "risk_on_pct": 0.1,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 99.9,
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 9.5,
+      "risk_off_pct": 90.5,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
+      "neutral_pct": 9.5,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 0.905
     },
     {
       "date": "2023-01-17",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 100.0,
+      "risk_on_retreat_pct": 3.7,
+      "risk_off_pct": 96.3,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
+      "neutral_pct": 3.7,
       "transition_risk": "Low",
-      "confidence": 1.0
+      "confidence": 0.963
     },
     {
       "date": "2023-01-18",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 100.0,
+      "risk_on_retreat_pct": 5.1,
+      "risk_off_pct": 94.9,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
+      "neutral_pct": 5.1,
       "transition_risk": "Low",
-      "confidence": 1.0
+      "confidence": 0.949
     },
     {
       "date": "2023-01-19",
-      "regime": "Risk-Off",
+      "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 100.0,
+      "risk_on_retreat_pct": 89.9,
+      "risk_off_pct": 10.1,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
-      "transition_risk": "Low",
-      "confidence": 1.0
+      "neutral_pct": 89.9,
+      "transition_risk": "Moderate",
+      "confidence": 0.899
     },
     {
       "date": "2023-01-20",
-      "regime": "Risk-Off",
+      "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 100.0,
+      "risk_on_retreat_pct": 97.8,
+      "risk_off_pct": 2.2,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
+      "neutral_pct": 97.8,
       "transition_risk": "Low",
-      "confidence": 1.0
+      "confidence": 0.978
     },
     {
       "date": "2023-01-23",
-      "regime": "Risk-Off",
+      "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 100.0,
+      "risk_on_retreat_pct": 99.6,
+      "risk_off_pct": 0.4,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
+      "neutral_pct": 99.6,
       "transition_risk": "Low",
-      "confidence": 1.0
+      "confidence": 0.996
     },
     {
       "date": "2023-01-24",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 100.0,
+      "risk_on_retreat_pct": 23.9,
+      "risk_off_pct": 76.1,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
-      "transition_risk": "Low",
-      "confidence": 1.0
+      "neutral_pct": 23.9,
+      "transition_risk": "Moderate",
+      "confidence": 0.761
     },
     {
       "date": "2023-01-25",
-      "regime": "Risk-Off",
+      "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 100.0,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
+      "neutral_pct": 100.0,
       "transition_risk": "Low",
       "confidence": 1.0
     },
     {
       "date": "2023-01-26",
-      "regime": "Risk-Off",
+      "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 100.0,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
+      "neutral_pct": 100.0,
       "transition_risk": "Low",
       "confidence": 1.0
     },
     {
       "date": "2023-01-27",
-      "regime": "Risk-Off",
+      "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 100.0,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
+      "neutral_pct": 100.0,
       "transition_risk": "Low",
       "confidence": 1.0
     },
     {
       "date": "2023-01-30",
-      "regime": "Risk-Off",
+      "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 100.0,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
+      "neutral_pct": 100.0,
       "transition_risk": "Low",
       "confidence": 1.0
     },
     {
       "date": "2023-01-31",
-      "regime": "Risk-Off",
+      "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 100.0,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
+      "neutral_pct": 100.0,
       "transition_risk": "Low",
       "confidence": 1.0
     },
     {
       "date": "2023-02-01",
-      "regime": "Risk-Off",
+      "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 100.0,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
+      "neutral_pct": 100.0,
       "transition_risk": "Low",
       "confidence": 1.0
     },
     {
       "date": "2023-02-02",
-      "regime": "Risk-Off",
+      "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 100.0,
+      "risk_on_retreat_pct": 93.1,
+      "risk_off_pct": 6.9,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
+      "neutral_pct": 93.1,
       "transition_risk": "Low",
-      "confidence": 1.0
+      "confidence": 0.931
     },
     {
       "date": "2023-02-03",
-      "regime": "Risk-Off",
+      "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 33.2,
-      "risk_off_pct": 66.8,
+      "risk_on_retreat_pct": 99.8,
+      "risk_off_pct": 0.2,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 33.2,
-      "transition_risk": "Elevated",
-      "confidence": 0.668
+      "neutral_pct": 99.8,
+      "transition_risk": "Low",
+      "confidence": 0.998
     },
     {
       "date": "2023-02-06",
-      "regime": "Risk-Off",
+      "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 13.5,
-      "risk_off_pct": 86.5,
+      "risk_on_retreat_pct": 98.2,
+      "risk_off_pct": 1.8,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 13.5,
-      "transition_risk": "Moderate",
-      "confidence": 0.865
+      "neutral_pct": 98.2,
+      "transition_risk": "Low",
+      "confidence": 0.982
     },
     {
       "date": "2023-02-07",
-      "regime": "Risk-Off",
+      "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 11.0,
-      "risk_off_pct": 89.0,
+      "risk_on_retreat_pct": 84.4,
+      "risk_off_pct": 15.6,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 11.0,
+      "neutral_pct": 84.4,
       "transition_risk": "Moderate",
-      "confidence": 0.89
+      "confidence": 0.844
     },
     {
       "date": "2023-02-08",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 2.9,
-      "risk_off_pct": 97.1,
+      "risk_on_retreat_pct": 14.2,
+      "risk_off_pct": 85.8,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 2.9,
-      "transition_risk": "Low",
-      "confidence": 0.971
+      "neutral_pct": 14.2,
+      "transition_risk": "Moderate",
+      "confidence": 0.858
     },
     {
       "date": "2023-02-09",
@@ -4329,56 +4318,56 @@
       "date": "2023-02-14",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.4,
-      "risk_off_pct": 99.6,
+      "risk_on_retreat_pct": 0.0,
+      "risk_off_pct": 100.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.4,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.996
+      "confidence": 1.0
     },
     {
       "date": "2023-02-15",
-      "regime": "Risk-On-Retreat",
+      "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 78.0,
-      "risk_off_pct": 22.0,
+      "risk_on_retreat_pct": 0.7,
+      "risk_off_pct": 99.3,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 78.0,
-      "transition_risk": "Moderate",
-      "confidence": 0.78
+      "neutral_pct": 0.7,
+      "transition_risk": "Low",
+      "confidence": 0.993
     },
     {
       "date": "2023-02-16",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 95.8,
-      "risk_off_pct": 4.2,
+      "risk_on_retreat_pct": 82.6,
+      "risk_off_pct": 17.4,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 95.8,
-      "transition_risk": "Low",
-      "confidence": 0.958
+      "neutral_pct": 82.6,
+      "transition_risk": "Moderate",
+      "confidence": 0.826
     },
     {
       "date": "2023-02-17",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 98.5,
-      "risk_off_pct": 1.5,
+      "risk_on_retreat_pct": 92.4,
+      "risk_off_pct": 7.6,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 98.5,
+      "neutral_pct": 92.4,
       "transition_risk": "Low",
-      "confidence": 0.985
+      "confidence": 0.924
     },
     {
       "date": "2023-02-21",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 94.2,
-      "risk_off_pct": 5.8,
+      "risk_on_retreat_pct": 95.5,
+      "risk_off_pct": 4.5,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 94.2,
+      "neutral_pct": 95.5,
       "transition_risk": "Low",
-      "confidence": 0.942
+      "confidence": 0.955
     },
     {
       "date": "2023-02-22",
@@ -4395,45 +4384,45 @@
       "date": "2023-02-23",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.4,
-      "risk_off_pct": 0.6,
+      "risk_on_retreat_pct": 98.3,
+      "risk_off_pct": 1.7,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.4,
+      "neutral_pct": 98.3,
       "transition_risk": "Low",
-      "confidence": 0.994
+      "confidence": 0.983
     },
     {
       "date": "2023-02-24",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 98.7,
-      "risk_off_pct": 1.3,
+      "risk_on_retreat_pct": 99.1,
+      "risk_off_pct": 0.9,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 98.7,
+      "neutral_pct": 99.1,
       "transition_risk": "Low",
-      "confidence": 0.987
+      "confidence": 0.991
     },
     {
       "date": "2023-02-27",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 94.5,
-      "risk_off_pct": 5.5,
+      "risk_on_retreat_pct": 85.0,
+      "risk_off_pct": 15.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 94.5,
-      "transition_risk": "Low",
-      "confidence": 0.945
+      "neutral_pct": 85.0,
+      "transition_risk": "Moderate",
+      "confidence": 0.85
     },
     {
       "date": "2023-02-28",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.2,
-      "risk_off_pct": 0.8,
+      "risk_on_retreat_pct": 99.1,
+      "risk_off_pct": 0.9,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.2,
+      "neutral_pct": 99.1,
       "transition_risk": "Low",
-      "confidence": 0.992
+      "confidence": 0.991
     },
     {
       "date": "2023-03-01",
@@ -4450,34 +4439,34 @@
       "date": "2023-03-02",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 100.0,
-      "risk_off_pct": 0.0,
+      "risk_on_retreat_pct": 99.9,
+      "risk_off_pct": 0.1,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 100.0,
+      "neutral_pct": 99.9,
       "transition_risk": "Low",
-      "confidence": 1.0
+      "confidence": 0.999
     },
     {
       "date": "2023-03-03",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.5,
-      "risk_off_pct": 0.5,
+      "risk_on_retreat_pct": 99.0,
+      "risk_off_pct": 1.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.5,
+      "neutral_pct": 99.0,
       "transition_risk": "Low",
-      "confidence": 0.995
+      "confidence": 0.99
     },
     {
       "date": "2023-03-06",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 77.6,
-      "risk_off_pct": 22.4,
+      "risk_on_retreat_pct": 78.5,
+      "risk_off_pct": 21.5,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 77.6,
+      "neutral_pct": 78.5,
       "transition_risk": "Moderate",
-      "confidence": 0.776
+      "confidence": 0.785
     },
     {
       "date": "2023-03-07",
@@ -4791,12 +4780,12 @@
       "date": "2023-04-17",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 100.0,
+      "risk_on_retreat_pct": 0.2,
+      "risk_off_pct": 99.8,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
+      "neutral_pct": 0.2,
       "transition_risk": "Low",
-      "confidence": 1.0
+      "confidence": 0.998
     },
     {
       "date": "2023-04-18",
@@ -4824,28 +4813,28 @@
       "date": "2023-04-20",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.3,
-      "risk_off_pct": 99.7,
+      "risk_on_retreat_pct": 0.5,
+      "risk_off_pct": 99.5,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.3,
+      "neutral_pct": 0.5,
       "transition_risk": "Low",
-      "confidence": 0.997
+      "confidence": 0.995
     },
     {
       "date": "2023-04-21",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 4.6,
-      "risk_off_pct": 95.3,
+      "risk_on_retreat_pct": 2.5,
+      "risk_off_pct": 97.4,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 4.6,
+      "neutral_pct": 2.5,
       "transition_risk": "Low",
-      "confidence": 0.953
+      "confidence": 0.974
     },
     {
       "date": "2023-04-24",
       "regime": "Risk-Off",
-      "risk_on_pct": 0.0,
+      "risk_on_pct": 0.2,
       "risk_on_retreat_pct": 0.2,
       "risk_off_pct": 99.7,
       "risk_off_stable_pct": 0.0,
@@ -4879,34 +4868,34 @@
       "date": "2023-04-27",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 7.3,
-      "risk_off_pct": 92.7,
+      "risk_on_retreat_pct": 0.0,
+      "risk_off_pct": 100.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 7.3,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.927
+      "confidence": 1.0
     },
     {
       "date": "2023-04-28",
       "regime": "Risk-Off",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.5,
-      "risk_off_pct": 99.5,
+      "risk_on_pct": 0.1,
+      "risk_on_retreat_pct": 0.0,
+      "risk_off_pct": 99.9,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.5,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.995
+      "confidence": 0.999
     },
     {
       "date": "2023-05-01",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 3.4,
-      "risk_off_pct": 96.6,
+      "risk_on_retreat_pct": 0.1,
+      "risk_off_pct": 99.9,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 3.4,
+      "neutral_pct": 0.1,
       "transition_risk": "Low",
-      "confidence": 0.966
+      "confidence": 0.999
     },
     {
       "date": "2023-05-02",
@@ -5033,12 +5022,12 @@
       "date": "2023-05-17",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.2,
-      "risk_off_pct": 99.8,
+      "risk_on_retreat_pct": 0.0,
+      "risk_off_pct": 100.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.2,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.998
+      "confidence": 1.0
     },
     {
       "date": "2023-05-18",
@@ -5055,12 +5044,12 @@
       "date": "2023-05-19",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.1,
-      "risk_off_pct": 99.9,
+      "risk_on_retreat_pct": 0.0,
+      "risk_off_pct": 100.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.1,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 1.0
     },
     {
       "date": "2023-05-22",
@@ -5099,23 +5088,23 @@
       "date": "2023-05-25",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 1.1,
-      "risk_off_pct": 98.9,
+      "risk_on_retreat_pct": 0.0,
+      "risk_off_pct": 100.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 1.1,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.989
+      "confidence": 1.0
     },
     {
       "date": "2023-05-26",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 1.5,
-      "risk_off_pct": 98.5,
+      "risk_on_retreat_pct": 0.0,
+      "risk_off_pct": 100.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 1.5,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.985
+      "confidence": 1.0
     },
     {
       "date": "2023-05-30",
@@ -5176,12 +5165,12 @@
       "date": "2023-06-06",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.2,
-      "risk_off_pct": 99.8,
+      "risk_on_retreat_pct": 0.0,
+      "risk_off_pct": 100.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.2,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.998
+      "confidence": 1.0
     },
     {
       "date": "2023-06-07",
@@ -5220,133 +5209,133 @@
       "date": "2023-06-12",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 2.2,
-      "risk_off_pct": 97.8,
+      "risk_on_retreat_pct": 1.5,
+      "risk_off_pct": 98.5,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 2.2,
+      "neutral_pct": 1.5,
       "transition_risk": "Low",
-      "confidence": 0.978
+      "confidence": 0.985
     },
     {
       "date": "2023-06-13",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.9,
-      "risk_off_pct": 99.1,
+      "risk_on_retreat_pct": 0.2,
+      "risk_off_pct": 99.8,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.9,
+      "neutral_pct": 0.2,
       "transition_risk": "Low",
-      "confidence": 0.991
+      "confidence": 0.998
     },
     {
       "date": "2023-06-14",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.1,
-      "risk_off_pct": 99.9,
+      "risk_on_retreat_pct": 0.0,
+      "risk_off_pct": 100.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.1,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 1.0
     },
     {
       "date": "2023-06-15",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.1,
-      "risk_off_pct": 99.9,
+      "risk_on_retreat_pct": 0.2,
+      "risk_off_pct": 99.8,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.1,
+      "neutral_pct": 0.2,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 0.998
     },
     {
       "date": "2023-06-16",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 6.6,
-      "risk_off_pct": 93.4,
+      "risk_on_retreat_pct": 21.0,
+      "risk_off_pct": 79.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 6.6,
-      "transition_risk": "Low",
-      "confidence": 0.934
+      "neutral_pct": 21.0,
+      "transition_risk": "Moderate",
+      "confidence": 0.79
     },
     {
       "date": "2023-06-20",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 85.3,
-      "risk_off_pct": 14.7,
+      "risk_on_retreat_pct": 82.4,
+      "risk_off_pct": 17.6,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 85.3,
+      "neutral_pct": 82.4,
       "transition_risk": "Moderate",
-      "confidence": 0.853
+      "confidence": 0.824
     },
     {
       "date": "2023-06-21",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 72.9,
-      "risk_off_pct": 27.1,
+      "risk_on_retreat_pct": 78.8,
+      "risk_off_pct": 21.2,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 72.9,
+      "neutral_pct": 78.8,
       "transition_risk": "Moderate",
-      "confidence": 0.729
+      "confidence": 0.788
     },
     {
       "date": "2023-06-22",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 48.9,
-      "risk_off_pct": 51.1,
+      "risk_on_retreat_pct": 41.8,
+      "risk_off_pct": 58.2,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 48.9,
+      "neutral_pct": 41.8,
       "transition_risk": "Elevated",
-      "confidence": 0.511
+      "confidence": 0.582
     },
     {
       "date": "2023-06-23",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 1.3,
-      "risk_off_pct": 98.7,
+      "risk_on_retreat_pct": 0.7,
+      "risk_off_pct": 99.3,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 1.3,
+      "neutral_pct": 0.7,
       "transition_risk": "Low",
-      "confidence": 0.987
+      "confidence": 0.993
     },
     {
       "date": "2023-06-26",
       "regime": "Risk-Off",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 19.4,
-      "risk_off_pct": 80.6,
+      "risk_on_retreat_pct": 16.6,
+      "risk_off_pct": 83.4,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 19.4,
+      "neutral_pct": 16.6,
       "transition_risk": "Moderate",
-      "confidence": 0.806
+      "confidence": 0.834
     },
     {
       "date": "2023-06-27",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.5,
-      "risk_on_retreat_pct": 60.4,
-      "risk_off_pct": 39.2,
+      "regime": "Risk-Off",
+      "risk_on_pct": 3.1,
+      "risk_on_retreat_pct": 25.6,
+      "risk_off_pct": 71.3,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 60.4,
-      "transition_risk": "Elevated",
-      "confidence": 0.604
+      "neutral_pct": 25.6,
+      "transition_risk": "Moderate",
+      "confidence": 0.713
     },
     {
       "date": "2023-06-28",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.1,
-      "risk_on_retreat_pct": 99.5,
-      "risk_off_pct": 0.4,
+      "risk_on_retreat_pct": 99.4,
+      "risk_off_pct": 0.5,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.5,
+      "neutral_pct": 99.4,
       "transition_risk": "Low",
-      "confidence": 0.995
+      "confidence": 0.994
     },
     {
       "date": "2023-06-29",
@@ -5362,35 +5351,35 @@
     {
       "date": "2023-06-30",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.1,
-      "risk_on_retreat_pct": 99.8,
-      "risk_off_pct": 0.1,
+      "risk_on_pct": 0.6,
+      "risk_on_retreat_pct": 98.4,
+      "risk_off_pct": 1.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.8,
+      "neutral_pct": 98.4,
       "transition_risk": "Low",
-      "confidence": 0.998
+      "confidence": 0.984
     },
     {
       "date": "2023-07-03",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.3,
-      "risk_on_retreat_pct": 99.4,
-      "risk_off_pct": 0.3,
+      "risk_on_pct": 1.3,
+      "risk_on_retreat_pct": 97.0,
+      "risk_off_pct": 1.7,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.4,
+      "neutral_pct": 97.0,
       "transition_risk": "Low",
-      "confidence": 0.994
+      "confidence": 0.97
     },
     {
       "date": "2023-07-05",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.2,
-      "risk_on_retreat_pct": 99.8,
+      "risk_on_pct": 0.3,
+      "risk_on_retreat_pct": 99.7,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.8,
+      "neutral_pct": 99.7,
       "transition_risk": "Low",
-      "confidence": 0.998
+      "confidence": 0.997
     },
     {
       "date": "2023-07-06",
@@ -5429,12 +5418,12 @@
       "date": "2023-07-11",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.7,
+      "risk_on_retreat_pct": 99.8,
       "risk_off_pct": 0.2,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.7,
+      "neutral_pct": 99.8,
       "transition_risk": "Low",
-      "confidence": 0.997
+      "confidence": 0.998
     },
     {
       "date": "2023-07-12",
@@ -5450,13 +5439,13 @@
     {
       "date": "2023-07-13",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.2,
-      "risk_on_retreat_pct": 99.8,
-      "risk_off_pct": 0.0,
+      "risk_on_pct": 2.0,
+      "risk_on_retreat_pct": 97.9,
+      "risk_off_pct": 0.1,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.8,
+      "neutral_pct": 97.9,
       "transition_risk": "Low",
-      "confidence": 0.998
+      "confidence": 0.979
     },
     {
       "date": "2023-07-14",
@@ -5483,60 +5472,38 @@
     {
       "date": "2023-07-18",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.1,
-      "risk_on_retreat_pct": 99.9,
+      "risk_on_pct": 0.3,
+      "risk_on_retreat_pct": 99.7,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.9,
+      "neutral_pct": 99.7,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 0.997
     },
     {
       "date": "2023-07-19",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.4,
-      "risk_on_retreat_pct": 99.6,
+      "risk_on_pct": 0.9,
+      "risk_on_retreat_pct": 99.1,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.6,
+      "neutral_pct": 99.1,
       "transition_risk": "Low",
-      "confidence": 0.996
+      "confidence": 0.991
     },
     {
       "date": "2023-07-20",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.6,
-      "risk_on_retreat_pct": 99.4,
+      "risk_on_pct": 0.9,
+      "risk_on_retreat_pct": 99.1,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.4,
+      "neutral_pct": 99.1,
       "transition_risk": "Low",
-      "confidence": 0.994
+      "confidence": 0.991
     },
     {
       "date": "2023-07-21",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.2,
-      "risk_on_retreat_pct": 99.8,
-      "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.8,
-      "transition_risk": "Low",
-      "confidence": 0.998
-    },
-    {
-      "date": "2023-07-24",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.5,
-      "risk_on_retreat_pct": 99.5,
-      "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.5,
-      "transition_risk": "Low",
-      "confidence": 0.995
-    },
-    {
-      "date": "2023-07-25",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.3,
       "risk_on_retreat_pct": 99.7,
@@ -5547,9 +5514,20 @@
       "confidence": 0.997
     },
     {
-      "date": "2023-07-26",
+      "date": "2023-07-24",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.1,
+      "risk_on_pct": 0.8,
+      "risk_on_retreat_pct": 99.2,
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 99.2,
+      "transition_risk": "Low",
+      "confidence": 0.992
+    },
+    {
+      "date": "2023-07-25",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.2,
       "risk_on_retreat_pct": 99.8,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
@@ -5558,40 +5536,29 @@
       "confidence": 0.998
     },
     {
-      "date": "2023-07-27",
+      "date": "2023-07-26",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.4,
-      "risk_on_retreat_pct": 99.6,
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 99.9,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.6,
+      "neutral_pct": 99.9,
       "transition_risk": "Low",
-      "confidence": 0.996
+      "confidence": 0.999
+    },
+    {
+      "date": "2023-07-27",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.2,
+      "risk_on_retreat_pct": 99.8,
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 99.8,
+      "transition_risk": "Low",
+      "confidence": 0.998
     },
     {
       "date": "2023-07-28",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 1.0,
-      "risk_on_retreat_pct": 99.0,
-      "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.0,
-      "transition_risk": "Low",
-      "confidence": 0.99
-    },
-    {
-      "date": "2023-07-31",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 1.3,
-      "risk_on_retreat_pct": 98.7,
-      "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 98.7,
-      "transition_risk": "Low",
-      "confidence": 0.987
-    },
-    {
-      "date": "2023-08-01",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.1,
       "risk_on_retreat_pct": 99.9,
@@ -5600,6 +5567,28 @@
       "neutral_pct": 99.9,
       "transition_risk": "Low",
       "confidence": 0.999
+    },
+    {
+      "date": "2023-07-31",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 1.3,
+      "risk_on_retreat_pct": 98.7,
+      "risk_off_pct": 0.1,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 98.7,
+      "transition_risk": "Low",
+      "confidence": 0.987
+    },
+    {
+      "date": "2023-08-01",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 100.0,
+      "transition_risk": "Low",
+      "confidence": 1.0
     },
     {
       "date": "2023-08-02",
@@ -5627,12 +5616,12 @@
       "date": "2023-08-04",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 100.0,
+      "risk_on_retreat_pct": 99.9,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 100.0,
+      "neutral_pct": 99.9,
       "transition_risk": "Low",
-      "confidence": 1.0
+      "confidence": 0.999
     },
     {
       "date": "2023-08-07",
@@ -5715,34 +5704,34 @@
       "date": "2023-08-16",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.2,
-      "risk_off_pct": 0.8,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.2,
+      "neutral_pct": 100.0,
       "transition_risk": "Low",
-      "confidence": 0.992
+      "confidence": 1.0
     },
     {
       "date": "2023-08-17",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.4,
-      "risk_off_pct": 0.6,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.4,
+      "neutral_pct": 100.0,
       "transition_risk": "Low",
-      "confidence": 0.994
+      "confidence": 1.0
     },
     {
       "date": "2023-08-18",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.0,
-      "risk_off_pct": 1.0,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.0,
+      "neutral_pct": 100.0,
       "transition_risk": "Low",
-      "confidence": 0.99
+      "confidence": 1.0
     },
     {
       "date": "2023-08-21",
@@ -5781,12 +5770,12 @@
       "date": "2023-08-24",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.7,
-      "risk_off_pct": 0.3,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.7,
+      "neutral_pct": 100.0,
       "transition_risk": "Low",
-      "confidence": 0.997
+      "confidence": 1.0
     },
     {
       "date": "2023-08-25",
@@ -5803,12 +5792,12 @@
       "date": "2023-08-28",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.9,
-      "risk_off_pct": 0.1,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.9,
+      "neutral_pct": 100.0,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 1.0
     },
     {
       "date": "2023-08-29",
@@ -5836,37 +5825,26 @@
       "date": "2023-08-31",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.2,
-      "risk_off_pct": 0.8,
+      "risk_on_retreat_pct": 99.5,
+      "risk_off_pct": 0.5,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.2,
+      "neutral_pct": 99.5,
       "transition_risk": "Low",
-      "confidence": 0.992
+      "confidence": 0.995
     },
     {
       "date": "2023-09-01",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 97.4,
-      "risk_off_pct": 2.6,
+      "risk_on_retreat_pct": 98.3,
+      "risk_off_pct": 1.7,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 97.4,
+      "neutral_pct": 98.3,
       "transition_risk": "Low",
-      "confidence": 0.974
+      "confidence": 0.983
     },
     {
       "date": "2023-09-05",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.8,
-      "risk_off_pct": 0.2,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.8,
-      "transition_risk": "Low",
-      "confidence": 0.998
-    },
-    {
-      "date": "2023-09-06",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 99.9,
@@ -5877,15 +5855,26 @@
       "confidence": 0.999
     },
     {
+      "date": "2023-09-06",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 100.0,
+      "transition_risk": "Low",
+      "confidence": 1.0
+    },
+    {
       "date": "2023-09-07",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.8,
-      "risk_off_pct": 0.2,
+      "risk_on_retreat_pct": 99.9,
+      "risk_off_pct": 0.1,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.8,
+      "neutral_pct": 99.9,
       "transition_risk": "Low",
-      "confidence": 0.998
+      "confidence": 0.999
     },
     {
       "date": "2023-09-08",
@@ -5901,71 +5890,49 @@
     {
       "date": "2023-09-11",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.1,
-      "risk_on_retreat_pct": 99.8,
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 99.9,
       "risk_off_pct": 0.1,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.8,
+      "neutral_pct": 99.9,
       "transition_risk": "Low",
-      "confidence": 0.998
+      "confidence": 0.999
     },
     {
       "date": "2023-09-12",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.3,
-      "risk_off_pct": 0.7,
+      "risk_on_retreat_pct": 99.1,
+      "risk_off_pct": 0.9,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.3,
+      "neutral_pct": 99.1,
       "transition_risk": "Low",
-      "confidence": 0.993
+      "confidence": 0.991
     },
     {
       "date": "2023-09-13",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 97.7,
-      "risk_off_pct": 2.3,
+      "risk_on_retreat_pct": 98.3,
+      "risk_off_pct": 1.7,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 97.7,
+      "neutral_pct": 98.3,
       "transition_risk": "Low",
-      "confidence": 0.977
+      "confidence": 0.983
     },
     {
       "date": "2023-09-14",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.1,
-      "risk_on_retreat_pct": 99.4,
+      "risk_on_retreat_pct": 99.5,
       "risk_off_pct": 0.5,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.4,
+      "neutral_pct": 99.5,
       "transition_risk": "Low",
-      "confidence": 0.994
+      "confidence": 0.995
     },
     {
       "date": "2023-09-15",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 96.9,
-      "risk_off_pct": 3.1,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 96.9,
-      "transition_risk": "Low",
-      "confidence": 0.969
-    },
-    {
-      "date": "2023-09-18",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.6,
-      "risk_off_pct": 0.4,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.6,
-      "transition_risk": "Low",
-      "confidence": 0.996
-    },
-    {
-      "date": "2023-09-19",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 99.4,
@@ -5974,6 +5941,28 @@
       "neutral_pct": 99.4,
       "transition_risk": "Low",
       "confidence": 0.994
+    },
+    {
+      "date": "2023-09-18",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 99.8,
+      "risk_off_pct": 0.2,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 99.8,
+      "transition_risk": "Low",
+      "confidence": 0.998
+    },
+    {
+      "date": "2023-09-19",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 99.5,
+      "risk_off_pct": 0.5,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 99.5,
+      "transition_risk": "Low",
+      "confidence": 0.995
     },
     {
       "date": "2023-09-20",
@@ -6034,125 +6023,70 @@
       "date": "2023-09-27",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.9,
-      "risk_off_pct": 0.1,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.9,
+      "neutral_pct": 100.0,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 1.0
     },
     {
       "date": "2023-09-28",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.6,
-      "risk_off_pct": 0.4,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.6,
+      "neutral_pct": 100.0,
       "transition_risk": "Low",
-      "confidence": 0.996
+      "confidence": 1.0
     },
     {
       "date": "2023-09-29",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 96.5,
-      "risk_off_pct": 3.5,
+      "risk_on_retreat_pct": 99.8,
+      "risk_off_pct": 0.2,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 96.5,
+      "neutral_pct": 99.8,
       "transition_risk": "Low",
-      "confidence": 0.965
+      "confidence": 0.998
     },
     {
       "date": "2023-10-02",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 97.5,
-      "risk_off_pct": 2.5,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 97.5,
+      "neutral_pct": 100.0,
       "transition_risk": "Low",
-      "confidence": 0.975
+      "confidence": 1.0
     },
     {
       "date": "2023-10-03",
-      "regime": "Risk-Off",
+      "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 46.3,
-      "risk_off_pct": 53.7,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 46.3,
-      "transition_risk": "Elevated",
-      "confidence": 0.537
+      "neutral_pct": 100.0,
+      "transition_risk": "Low",
+      "confidence": 1.0
     },
     {
       "date": "2023-10-04",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 72.7,
-      "risk_off_pct": 27.3,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 72.7,
-      "transition_risk": "Moderate",
-      "confidence": 0.727
+      "neutral_pct": 100.0,
+      "transition_risk": "Low",
+      "confidence": 1.0
     },
     {
       "date": "2023-10-05",
-      "regime": "Risk-Off",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 39.1,
-      "risk_off_pct": 60.9,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 39.1,
-      "transition_risk": "Elevated",
-      "confidence": 0.609
-    },
-    {
-      "date": "2023-10-06",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 92.5,
-      "risk_off_pct": 7.5,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 92.5,
-      "transition_risk": "Low",
-      "confidence": 0.925
-    },
-    {
-      "date": "2023-10-09",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.2,
-      "risk_off_pct": 0.8,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.2,
-      "transition_risk": "Low",
-      "confidence": 0.992
-    },
-    {
-      "date": "2023-10-10",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 97.9,
-      "risk_off_pct": 2.1,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 97.9,
-      "transition_risk": "Low",
-      "confidence": 0.979
-    },
-    {
-      "date": "2023-10-11",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.1,
-      "risk_off_pct": 0.9,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.1,
-      "transition_risk": "Low",
-      "confidence": 0.991
-    },
-    {
-      "date": "2023-10-12",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 99.9,
@@ -6161,6 +6095,61 @@
       "neutral_pct": 99.9,
       "transition_risk": "Low",
       "confidence": 0.999
+    },
+    {
+      "date": "2023-10-06",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 99.9,
+      "risk_off_pct": 0.1,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 99.9,
+      "transition_risk": "Low",
+      "confidence": 0.999
+    },
+    {
+      "date": "2023-10-09",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 99.7,
+      "risk_off_pct": 0.3,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 99.7,
+      "transition_risk": "Low",
+      "confidence": 0.997
+    },
+    {
+      "date": "2023-10-10",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 100.0,
+      "transition_risk": "Low",
+      "confidence": 1.0
+    },
+    {
+      "date": "2023-10-11",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 100.0,
+      "transition_risk": "Low",
+      "confidence": 1.0
+    },
+    {
+      "date": "2023-10-12",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 100.0,
+      "transition_risk": "Low",
+      "confidence": 1.0
     },
     {
       "date": "2023-10-13",
@@ -6188,12 +6177,12 @@
       "date": "2023-10-17",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.9,
-      "risk_off_pct": 0.1,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.9,
+      "neutral_pct": 100.0,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 1.0
     },
     {
       "date": "2023-10-18",
@@ -6221,12 +6210,12 @@
       "date": "2023-10-20",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.9,
+      "risk_on_retreat_pct": 100.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 0.1,
+      "risk_off_stable_pct": 0.0,
       "neutral_pct": 100.0,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 1.0
     },
     {
       "date": "2023-10-23",
@@ -6276,12 +6265,12 @@
       "date": "2023-10-27",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.8,
-      "risk_off_pct": 0.2,
+      "risk_on_retreat_pct": 99.9,
+      "risk_off_pct": 0.1,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.8,
+      "neutral_pct": 99.9,
       "transition_risk": "Low",
-      "confidence": 0.998
+      "confidence": 0.999
     },
     {
       "date": "2023-10-30",
@@ -6309,12 +6298,12 @@
       "date": "2023-11-01",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.2,
-      "risk_off_pct": 0.8,
+      "risk_on_retreat_pct": 99.6,
+      "risk_off_pct": 0.4,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.2,
+      "neutral_pct": 99.6,
       "transition_risk": "Low",
-      "confidence": 0.992
+      "confidence": 0.996
     },
     {
       "date": "2023-11-02",
@@ -6331,224 +6320,26 @@
       "date": "2023-11-03",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 85.5,
-      "risk_off_pct": 14.5,
+      "risk_on_retreat_pct": 89.8,
+      "risk_off_pct": 10.2,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 85.5,
+      "neutral_pct": 89.8,
       "transition_risk": "Moderate",
-      "confidence": 0.855
+      "confidence": 0.898
     },
     {
       "date": "2023-11-06",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 98.7,
-      "risk_off_pct": 1.3,
+      "risk_on_retreat_pct": 98.8,
+      "risk_off_pct": 1.2,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 98.7,
+      "neutral_pct": 98.8,
       "transition_risk": "Low",
-      "confidence": 0.987
+      "confidence": 0.988
     },
     {
       "date": "2023-11-07",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 98.5,
-      "risk_off_pct": 1.5,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 98.5,
-      "transition_risk": "Low",
-      "confidence": 0.985
-    },
-    {
-      "date": "2023-11-08",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 98.4,
-      "risk_off_pct": 1.6,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 98.4,
-      "transition_risk": "Low",
-      "confidence": 0.984
-    },
-    {
-      "date": "2023-11-09",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 98.1,
-      "risk_off_pct": 1.9,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 98.1,
-      "transition_risk": "Low",
-      "confidence": 0.981
-    },
-    {
-      "date": "2023-11-10",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.3,
-      "risk_on_retreat_pct": 84.3,
-      "risk_off_pct": 15.4,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 84.3,
-      "transition_risk": "Moderate",
-      "confidence": 0.843
-    },
-    {
-      "date": "2023-11-13",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 95.9,
-      "risk_off_pct": 4.1,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 95.9,
-      "transition_risk": "Low",
-      "confidence": 0.959
-    },
-    {
-      "date": "2023-11-14",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.0,
-      "risk_off_pct": 1.0,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.0,
-      "transition_risk": "Low",
-      "confidence": 0.99
-    },
-    {
-      "date": "2023-11-15",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 91.3,
-      "risk_off_pct": 8.7,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 91.3,
-      "transition_risk": "Low",
-      "confidence": 0.913
-    },
-    {
-      "date": "2023-11-16",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 81.6,
-      "risk_off_pct": 18.4,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 81.6,
-      "transition_risk": "Moderate",
-      "confidence": 0.816
-    },
-    {
-      "date": "2023-11-17",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 79.7,
-      "risk_off_pct": 20.3,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 79.7,
-      "transition_risk": "Moderate",
-      "confidence": 0.797
-    },
-    {
-      "date": "2023-11-20",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 86.5,
-      "risk_off_pct": 13.4,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 86.5,
-      "transition_risk": "Moderate",
-      "confidence": 0.865
-    },
-    {
-      "date": "2023-11-21",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 97.7,
-      "risk_off_pct": 2.3,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 97.7,
-      "transition_risk": "Low",
-      "confidence": 0.977
-    },
-    {
-      "date": "2023-11-22",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.1,
-      "risk_on_retreat_pct": 98.2,
-      "risk_off_pct": 1.6,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 98.2,
-      "transition_risk": "Low",
-      "confidence": 0.982
-    },
-    {
-      "date": "2023-11-24",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.0,
-      "risk_off_pct": 1.0,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.0,
-      "transition_risk": "Low",
-      "confidence": 0.99
-    },
-    {
-      "date": "2023-11-27",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 97.6,
-      "risk_off_pct": 2.4,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 97.6,
-      "transition_risk": "Low",
-      "confidence": 0.976
-    },
-    {
-      "date": "2023-11-28",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.7,
-      "risk_off_pct": 0.3,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.7,
-      "transition_risk": "Low",
-      "confidence": 0.997
-    },
-    {
-      "date": "2023-11-29",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.8,
-      "risk_off_pct": 0.2,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.8,
-      "transition_risk": "Low",
-      "confidence": 0.998
-    },
-    {
-      "date": "2023-11-30",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.4,
-      "risk_off_pct": 0.6,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.4,
-      "transition_risk": "Low",
-      "confidence": 0.994
-    },
-    {
-      "date": "2023-12-01",
-      "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 86.5,
-      "risk_off_pct": 13.5,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 86.5,
-      "transition_risk": "Moderate",
-      "confidence": 0.865
-    },
-    {
-      "date": "2023-12-04",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 98.9,
@@ -6559,29 +6350,84 @@
       "confidence": 0.989
     },
     {
-      "date": "2023-12-05",
+      "date": "2023-11-08",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 98.1,
-      "risk_off_pct": 1.9,
+      "risk_on_retreat_pct": 98.8,
+      "risk_off_pct": 1.2,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 98.1,
+      "neutral_pct": 98.8,
       "transition_risk": "Low",
-      "confidence": 0.981
+      "confidence": 0.988
     },
     {
-      "date": "2023-12-06",
+      "date": "2023-11-09",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 98.4,
-      "risk_off_pct": 1.6,
+      "risk_on_retreat_pct": 98.7,
+      "risk_off_pct": 1.3,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 98.4,
+      "neutral_pct": 98.7,
       "transition_risk": "Low",
-      "confidence": 0.984
+      "confidence": 0.987
     },
     {
-      "date": "2023-12-07",
+      "date": "2023-11-10",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.2,
+      "risk_on_retreat_pct": 86.6,
+      "risk_off_pct": 13.2,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 86.6,
+      "transition_risk": "Moderate",
+      "confidence": 0.866
+    },
+    {
+      "date": "2023-11-13",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 88.2,
+      "risk_off_pct": 11.8,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 88.2,
+      "transition_risk": "Moderate",
+      "confidence": 0.882
+    },
+    {
+      "date": "2023-11-14",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 98.9,
+      "risk_off_pct": 1.1,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 98.9,
+      "transition_risk": "Low",
+      "confidence": 0.989
+    },
+    {
+      "date": "2023-11-15",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 95.8,
+      "risk_off_pct": 4.2,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 95.8,
+      "transition_risk": "Low",
+      "confidence": 0.958
+    },
+    {
+      "date": "2023-11-16",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 95.9,
+      "risk_off_pct": 4.1,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 95.9,
+      "transition_risk": "Low",
+      "confidence": 0.959
+    },
+    {
+      "date": "2023-11-17",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 99.2,
@@ -6592,18 +6438,18 @@
       "confidence": 0.992
     },
     {
-      "date": "2023-12-08",
+      "date": "2023-11-20",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.3,
-      "risk_on_retreat_pct": 94.5,
-      "risk_off_pct": 5.1,
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 98.7,
+      "risk_off_pct": 1.3,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 94.5,
+      "neutral_pct": 98.7,
       "transition_risk": "Low",
-      "confidence": 0.945
+      "confidence": 0.987
     },
     {
-      "date": "2023-12-11",
+      "date": "2023-11-21",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 99.8,
@@ -6614,7 +6460,95 @@
       "confidence": 0.998
     },
     {
-      "date": "2023-12-12",
+      "date": "2023-11-22",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 99.5,
+      "risk_off_pct": 0.5,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 99.5,
+      "transition_risk": "Low",
+      "confidence": 0.995
+    },
+    {
+      "date": "2023-11-24",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.1,
+      "risk_on_retreat_pct": 97.6,
+      "risk_off_pct": 2.3,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 97.6,
+      "transition_risk": "Low",
+      "confidence": 0.976
+    },
+    {
+      "date": "2023-11-27",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 99.8,
+      "risk_off_pct": 0.2,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 99.8,
+      "transition_risk": "Low",
+      "confidence": 0.998
+    },
+    {
+      "date": "2023-11-28",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 99.9,
+      "risk_off_pct": 0.1,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 99.9,
+      "transition_risk": "Low",
+      "confidence": 0.999
+    },
+    {
+      "date": "2023-11-29",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 100.0,
+      "transition_risk": "Low",
+      "confidence": 1.0
+    },
+    {
+      "date": "2023-11-30",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 99.9,
+      "risk_off_pct": 0.1,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 99.9,
+      "transition_risk": "Low",
+      "confidence": 0.999
+    },
+    {
+      "date": "2023-12-01",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 99.9,
+      "risk_off_pct": 0.1,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 99.9,
+      "transition_risk": "Low",
+      "confidence": 0.999
+    },
+    {
+      "date": "2023-12-04",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 99.8,
+      "risk_off_pct": 0.2,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 99.8,
+      "transition_risk": "Low",
+      "confidence": 0.998
+    },
+    {
+      "date": "2023-12-05",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 99.7,
@@ -6625,7 +6559,18 @@
       "confidence": 0.997
     },
     {
-      "date": "2023-12-13",
+      "date": "2023-12-06",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 97.8,
+      "risk_off_pct": 2.2,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 97.8,
+      "transition_risk": "Low",
+      "confidence": 0.978
+    },
+    {
+      "date": "2023-12-07",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 99.9,
@@ -6634,6 +6579,50 @@
       "neutral_pct": 99.9,
       "transition_risk": "Low",
       "confidence": 0.999
+    },
+    {
+      "date": "2023-12-08",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 99.9,
+      "risk_off_pct": 0.1,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 99.9,
+      "transition_risk": "Low",
+      "confidence": 0.999
+    },
+    {
+      "date": "2023-12-11",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 100.0,
+      "transition_risk": "Low",
+      "confidence": 1.0
+    },
+    {
+      "date": "2023-12-12",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 100.0,
+      "transition_risk": "Low",
+      "confidence": 1.0
+    },
+    {
+      "date": "2023-12-13",
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 100.0,
+      "transition_risk": "Low",
+      "confidence": 1.0
     },
     {
       "date": "2023-12-14",
@@ -6650,12 +6639,12 @@
       "date": "2023-12-15",
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 99.9,
-      "risk_off_pct": 0.1,
+      "risk_on_retreat_pct": 100.0,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.9,
+      "neutral_pct": 100.0,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 1.0
     },
     {
       "date": "2023-12-18",
@@ -6770,13 +6759,13 @@
     {
       "date": "2024-01-03",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.2,
-      "risk_on_retreat_pct": 99.8,
+      "risk_on_pct": 0.1,
+      "risk_on_retreat_pct": 99.9,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.8,
+      "neutral_pct": 99.9,
       "transition_risk": "Low",
-      "confidence": 0.998
+      "confidence": 0.999
     },
     {
       "date": "2024-01-04",
@@ -6805,7 +6794,7 @@
       "regime": "Risk-On-Retreat",
       "risk_on_pct": 0.0,
       "risk_on_retreat_pct": 99.9,
-      "risk_off_pct": 0.0,
+      "risk_off_pct": 0.1,
       "risk_off_stable_pct": 0.0,
       "neutral_pct": 99.9,
       "transition_risk": "Low",
@@ -6847,13 +6836,13 @@
     {
       "date": "2024-01-12",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.4,
-      "risk_on_retreat_pct": 99.5,
-      "risk_off_pct": 0.1,
+      "risk_on_pct": 0.9,
+      "risk_on_retreat_pct": 98.9,
+      "risk_off_pct": 0.2,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.5,
+      "neutral_pct": 98.9,
       "transition_risk": "Low",
-      "confidence": 0.995
+      "confidence": 0.989
     },
     {
       "date": "2024-01-16",
@@ -6869,13 +6858,13 @@
     {
       "date": "2024-01-17",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.1,
-      "risk_on_retreat_pct": 99.9,
+      "risk_on_pct": 0.0,
+      "risk_on_retreat_pct": 100.0,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.9,
+      "neutral_pct": 100.0,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 1.0
     },
     {
       "date": "2024-01-18",
@@ -6902,13 +6891,13 @@
     {
       "date": "2024-01-22",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.1,
-      "risk_on_retreat_pct": 99.9,
+      "risk_on_pct": 0.2,
+      "risk_on_retreat_pct": 99.8,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.9,
+      "neutral_pct": 99.8,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 0.998
     },
     {
       "date": "2024-01-23",
@@ -6957,35 +6946,35 @@
     {
       "date": "2024-01-29",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.4,
-      "risk_on_retreat_pct": 99.6,
+      "risk_on_pct": 0.3,
+      "risk_on_retreat_pct": 99.7,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.6,
+      "neutral_pct": 99.7,
       "transition_risk": "Low",
-      "confidence": 0.996
+      "confidence": 0.997
     },
     {
       "date": "2024-01-30",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 0.1,
-      "risk_on_retreat_pct": 99.9,
+      "risk_on_pct": 0.2,
+      "risk_on_retreat_pct": 99.8,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 99.9,
+      "neutral_pct": 99.8,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 0.998
     },
     {
       "date": "2024-01-31",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 4.2,
-      "risk_on_retreat_pct": 95.8,
+      "risk_on_pct": 5.2,
+      "risk_on_retreat_pct": 94.8,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 95.8,
+      "neutral_pct": 94.8,
       "transition_risk": "Low",
-      "confidence": 0.958
+      "confidence": 0.948
     },
     {
       "date": "2024-02-01",
@@ -7001,24 +6990,24 @@
     {
       "date": "2024-02-02",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 2.9,
-      "risk_on_retreat_pct": 97.1,
+      "risk_on_pct": 2.0,
+      "risk_on_retreat_pct": 98.0,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 97.1,
+      "neutral_pct": 98.0,
       "transition_risk": "Low",
-      "confidence": 0.971
+      "confidence": 0.98
     },
     {
       "date": "2024-02-05",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 10.3,
-      "risk_on_retreat_pct": 89.7,
+      "risk_on_pct": 4.3,
+      "risk_on_retreat_pct": 95.7,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 89.7,
-      "transition_risk": "Moderate",
-      "confidence": 0.897
+      "neutral_pct": 95.7,
+      "transition_risk": "Low",
+      "confidence": 0.957
     },
     {
       "date": "2024-02-06",
@@ -7034,60 +7023,49 @@
     {
       "date": "2024-02-07",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 1.6,
-      "risk_on_retreat_pct": 98.4,
+      "risk_on_pct": 3.3,
+      "risk_on_retreat_pct": 96.7,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 98.4,
+      "neutral_pct": 96.7,
       "transition_risk": "Low",
-      "confidence": 0.984
+      "confidence": 0.967
     },
     {
       "date": "2024-02-08",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 11.8,
-      "risk_on_retreat_pct": 88.2,
+      "risk_on_pct": 12.6,
+      "risk_on_retreat_pct": 87.4,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 88.2,
+      "neutral_pct": 87.4,
       "transition_risk": "Moderate",
-      "confidence": 0.882
+      "confidence": 0.874
     },
     {
       "date": "2024-02-09",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 19.1,
-      "risk_on_retreat_pct": 80.9,
+      "risk_on_pct": 22.3,
+      "risk_on_retreat_pct": 77.7,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 80.9,
+      "neutral_pct": 77.7,
       "transition_risk": "Moderate",
-      "confidence": 0.809
+      "confidence": 0.777
     },
     {
       "date": "2024-02-12",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 29.0,
-      "risk_on_retreat_pct": 71.0,
+      "risk_on_pct": 11.5,
+      "risk_on_retreat_pct": 88.5,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 71.0,
+      "neutral_pct": 88.5,
       "transition_risk": "Moderate",
-      "confidence": 0.71
+      "confidence": 0.885
     },
     {
       "date": "2024-02-13",
-      "regime": "Risk-On",
-      "risk_on_pct": 100.0,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
-      "transition_risk": "Low",
-      "confidence": 1.0
-    },
-    {
-      "date": "2024-02-14",
       "regime": "Risk-On",
       "risk_on_pct": 99.9,
       "risk_on_retreat_pct": 0.1,
@@ -7098,26 +7076,37 @@
       "confidence": 0.999
     },
     {
-      "date": "2024-02-15",
+      "date": "2024-02-14",
       "regime": "Risk-On",
-      "risk_on_pct": 96.7,
-      "risk_on_retreat_pct": 3.3,
+      "risk_on_pct": 98.8,
+      "risk_on_retreat_pct": 1.2,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 3.3,
+      "neutral_pct": 1.2,
       "transition_risk": "Low",
-      "confidence": 0.967
+      "confidence": 0.988
+    },
+    {
+      "date": "2024-02-15",
+      "regime": "Risk-On",
+      "risk_on_pct": 98.1,
+      "risk_on_retreat_pct": 1.9,
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 1.9,
+      "transition_risk": "Low",
+      "confidence": 0.981
     },
     {
       "date": "2024-02-16",
       "regime": "Risk-On",
-      "risk_on_pct": 99.7,
-      "risk_on_retreat_pct": 0.3,
+      "risk_on_pct": 100.0,
+      "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.3,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.997
+      "confidence": 1.0
     },
     {
       "date": "2024-02-20",
@@ -7155,203 +7144,148 @@
     {
       "date": "2024-02-23",
       "regime": "Risk-On",
-      "risk_on_pct": 93.2,
-      "risk_on_retreat_pct": 6.8,
+      "risk_on_pct": 93.6,
+      "risk_on_retreat_pct": 6.4,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 6.8,
+      "neutral_pct": 6.4,
       "transition_risk": "Low",
-      "confidence": 0.932
+      "confidence": 0.936
     },
     {
       "date": "2024-02-26",
       "regime": "Risk-On",
-      "risk_on_pct": 97.6,
-      "risk_on_retreat_pct": 2.4,
+      "risk_on_pct": 95.9,
+      "risk_on_retreat_pct": 4.1,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 2.4,
+      "neutral_pct": 4.1,
       "transition_risk": "Low",
-      "confidence": 0.976
+      "confidence": 0.959
     },
     {
       "date": "2024-02-27",
       "regime": "Risk-On",
-      "risk_on_pct": 97.8,
-      "risk_on_retreat_pct": 2.2,
+      "risk_on_pct": 97.5,
+      "risk_on_retreat_pct": 2.5,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 2.2,
+      "neutral_pct": 2.5,
       "transition_risk": "Low",
-      "confidence": 0.978
+      "confidence": 0.975
     },
     {
       "date": "2024-02-28",
       "regime": "Risk-On",
-      "risk_on_pct": 100.0,
-      "risk_on_retreat_pct": 0.0,
+      "risk_on_pct": 99.9,
+      "risk_on_retreat_pct": 0.1,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
+      "neutral_pct": 0.1,
       "transition_risk": "Low",
-      "confidence": 1.0
+      "confidence": 0.999
     },
     {
       "date": "2024-02-29",
-      "regime": "Risk-On",
-      "risk_on_pct": 63.3,
-      "risk_on_retreat_pct": 36.7,
+      "regime": "Risk-On-Retreat",
+      "risk_on_pct": 36.8,
+      "risk_on_retreat_pct": 63.2,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 36.7,
+      "neutral_pct": 63.2,
       "transition_risk": "Elevated",
-      "confidence": 0.633
+      "confidence": 0.632
     },
     {
       "date": "2024-03-01",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 18.1,
-      "risk_on_retreat_pct": 81.9,
+      "risk_on_pct": 16.8,
+      "risk_on_retreat_pct": 83.2,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 81.9,
+      "neutral_pct": 83.2,
       "transition_risk": "Moderate",
-      "confidence": 0.819
+      "confidence": 0.832
     },
     {
       "date": "2024-03-04",
       "regime": "Risk-On-Retreat",
-      "risk_on_pct": 14.7,
-      "risk_on_retreat_pct": 85.3,
+      "risk_on_pct": 16.1,
+      "risk_on_retreat_pct": 83.9,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 85.3,
+      "neutral_pct": 83.9,
       "transition_risk": "Moderate",
-      "confidence": 0.853
+      "confidence": 0.839
     },
     {
       "date": "2024-03-05",
       "regime": "Risk-On",
-      "risk_on_pct": 98.7,
-      "risk_on_retreat_pct": 1.3,
+      "risk_on_pct": 99.1,
+      "risk_on_retreat_pct": 0.9,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 1.3,
+      "neutral_pct": 0.9,
       "transition_risk": "Low",
-      "confidence": 0.987
+      "confidence": 0.991
     },
     {
       "date": "2024-03-06",
       "regime": "Risk-On",
-      "risk_on_pct": 97.7,
-      "risk_on_retreat_pct": 2.3,
+      "risk_on_pct": 99.0,
+      "risk_on_retreat_pct": 0.9,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 2.3,
+      "risk_off_stable_pct": 0.1,
+      "neutral_pct": 1.0,
       "transition_risk": "Low",
-      "confidence": 0.977
+      "confidence": 0.99
     },
     {
       "date": "2024-03-07",
       "regime": "Risk-On",
-      "risk_on_pct": 97.8,
-      "risk_on_retreat_pct": 2.2,
-      "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 2.2,
-      "transition_risk": "Low",
-      "confidence": 0.978
-    },
-    {
-      "date": "2024-03-08",
-      "regime": "Risk-On",
-      "risk_on_pct": 96.6,
-      "risk_on_retreat_pct": 2.6,
-      "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 0.8,
-      "neutral_pct": 3.4,
-      "transition_risk": "Low",
-      "confidence": 0.966
-    },
-    {
-      "date": "2024-03-11",
-      "regime": "Risk-On",
-      "risk_on_pct": 82.1,
-      "risk_on_retreat_pct": 0.4,
-      "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 17.5,
-      "neutral_pct": 17.9,
-      "transition_risk": "Moderate",
-      "confidence": 0.821
-    },
-    {
-      "date": "2024-03-12",
-      "regime": "Risk-On",
-      "risk_on_pct": 94.0,
-      "risk_on_retreat_pct": 6.0,
-      "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 6.0,
-      "transition_risk": "Low",
-      "confidence": 0.94
-    },
-    {
-      "date": "2024-03-13",
-      "regime": "Risk-On",
-      "risk_on_pct": 93.5,
-      "risk_on_retreat_pct": 6.5,
-      "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 6.5,
-      "transition_risk": "Low",
-      "confidence": 0.935
-    },
-    {
-      "date": "2024-03-14",
-      "regime": "Risk-On",
-      "risk_on_pct": 99.7,
+      "risk_on_pct": 99.6,
       "risk_on_retreat_pct": 0.3,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
       "neutral_pct": 0.3,
       "transition_risk": "Low",
-      "confidence": 0.997
+      "confidence": 0.996
     },
     {
-      "date": "2024-03-15",
+      "date": "2024-03-08",
       "regime": "Risk-On",
-      "risk_on_pct": 99.3,
-      "risk_on_retreat_pct": 0.7,
+      "risk_on_pct": 98.2,
+      "risk_on_retreat_pct": 0.9,
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 0.9,
+      "neutral_pct": 1.8,
+      "transition_risk": "Low",
+      "confidence": 0.982
+    },
+    {
+      "date": "2024-03-11",
+      "regime": "Risk-On",
+      "risk_on_pct": 81.2,
+      "risk_on_retreat_pct": 0.0,
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 18.8,
+      "neutral_pct": 18.8,
+      "transition_risk": "Moderate",
+      "confidence": 0.812
+    },
+    {
+      "date": "2024-03-12",
+      "regime": "Risk-On",
+      "risk_on_pct": 98.5,
+      "risk_on_retreat_pct": 1.5,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.7,
+      "neutral_pct": 1.5,
       "transition_risk": "Low",
-      "confidence": 0.993
+      "confidence": 0.985
     },
     {
-      "date": "2024-03-18",
-      "regime": "Risk-On",
-      "risk_on_pct": 99.5,
-      "risk_on_retreat_pct": 0.5,
-      "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.5,
-      "transition_risk": "Low",
-      "confidence": 0.995
-    },
-    {
-      "date": "2024-03-19",
-      "regime": "Risk-On",
-      "risk_on_pct": 96.8,
-      "risk_on_retreat_pct": 3.2,
-      "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 0.0,
-      "neutral_pct": 3.2,
-      "transition_risk": "Low",
-      "confidence": 0.968
-    },
-    {
-      "date": "2024-03-20",
+      "date": "2024-03-13",
       "regime": "Risk-On",
       "risk_on_pct": 99.6,
       "risk_on_retreat_pct": 0.4,
@@ -7362,15 +7296,70 @@
       "confidence": 0.996
     },
     {
-      "date": "2024-03-21",
+      "date": "2024-03-14",
       "regime": "Risk-On",
-      "risk_on_pct": 99.9,
-      "risk_on_retreat_pct": 0.1,
+      "risk_on_pct": 100.0,
+      "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.1,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 1.0
+    },
+    {
+      "date": "2024-03-15",
+      "regime": "Risk-On",
+      "risk_on_pct": 100.0,
+      "risk_on_retreat_pct": 0.0,
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 0.0,
+      "transition_risk": "Low",
+      "confidence": 1.0
+    },
+    {
+      "date": "2024-03-18",
+      "regime": "Risk-On",
+      "risk_on_pct": 100.0,
+      "risk_on_retreat_pct": 0.0,
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 0.0,
+      "transition_risk": "Low",
+      "confidence": 1.0
+    },
+    {
+      "date": "2024-03-19",
+      "regime": "Risk-On",
+      "risk_on_pct": 99.8,
+      "risk_on_retreat_pct": 0.2,
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 0.2,
+      "transition_risk": "Low",
+      "confidence": 0.998
+    },
+    {
+      "date": "2024-03-20",
+      "regime": "Risk-On",
+      "risk_on_pct": 98.4,
+      "risk_on_retreat_pct": 1.6,
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 1.6,
+      "transition_risk": "Low",
+      "confidence": 0.984
+    },
+    {
+      "date": "2024-03-21",
+      "regime": "Risk-On",
+      "risk_on_pct": 99.8,
+      "risk_on_retreat_pct": 0.2,
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 0.2,
+      "transition_risk": "Low",
+      "confidence": 0.998
     },
     {
       "date": "2024-03-22",
@@ -7397,35 +7386,35 @@
     {
       "date": "2024-03-26",
       "regime": "Risk-On",
-      "risk_on_pct": 99.8,
-      "risk_on_retreat_pct": 0.2,
+      "risk_on_pct": 99.6,
+      "risk_on_retreat_pct": 0.4,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.2,
+      "neutral_pct": 0.4,
       "transition_risk": "Low",
-      "confidence": 0.998
+      "confidence": 0.996
     },
     {
       "date": "2024-03-27",
       "regime": "Risk-On",
-      "risk_on_pct": 100.0,
-      "risk_on_retreat_pct": 0.0,
+      "risk_on_pct": 99.9,
+      "risk_on_retreat_pct": 0.1,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
+      "neutral_pct": 0.1,
       "transition_risk": "Low",
-      "confidence": 1.0
+      "confidence": 0.999
     },
     {
       "date": "2024-03-28",
       "regime": "Risk-On",
-      "risk_on_pct": 100.0,
-      "risk_on_retreat_pct": 0.0,
+      "risk_on_pct": 99.9,
+      "risk_on_retreat_pct": 0.1,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
+      "neutral_pct": 0.1,
       "transition_risk": "Low",
-      "confidence": 1.0
+      "confidence": 0.999
     },
     {
       "date": "2024-04-01",
@@ -7463,27 +7452,38 @@
     {
       "date": "2024-04-04",
       "regime": "Risk-On",
-      "risk_on_pct": 99.5,
+      "risk_on_pct": 97.9,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 0.5,
-      "neutral_pct": 0.5,
+      "risk_off_stable_pct": 2.1,
+      "neutral_pct": 2.1,
       "transition_risk": "Low",
-      "confidence": 0.995
+      "confidence": 0.979
     },
     {
       "date": "2024-04-05",
       "regime": "Risk-On",
-      "risk_on_pct": 98.5,
+      "risk_on_pct": 96.8,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 1.5,
-      "neutral_pct": 1.5,
+      "risk_off_stable_pct": 3.2,
+      "neutral_pct": 3.2,
       "transition_risk": "Low",
-      "confidence": 0.985
+      "confidence": 0.968
     },
     {
       "date": "2024-04-08",
+      "regime": "Risk-On",
+      "risk_on_pct": 99.7,
+      "risk_on_retreat_pct": 0.0,
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 0.3,
+      "neutral_pct": 0.3,
+      "transition_risk": "Low",
+      "confidence": 0.997
+    },
+    {
+      "date": "2024-04-09",
       "regime": "Risk-On",
       "risk_on_pct": 99.9,
       "risk_on_retreat_pct": 0.0,
@@ -7494,26 +7494,15 @@
       "confidence": 0.999
     },
     {
-      "date": "2024-04-09",
-      "regime": "Risk-On",
-      "risk_on_pct": 99.9,
-      "risk_on_retreat_pct": 0.1,
-      "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 0.1,
-      "neutral_pct": 0.2,
-      "transition_risk": "Low",
-      "confidence": 0.999
-    },
-    {
       "date": "2024-04-10",
       "regime": "Risk-On",
-      "risk_on_pct": 98.5,
+      "risk_on_pct": 99.0,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 1.5,
-      "neutral_pct": 1.5,
+      "risk_off_stable_pct": 1.0,
+      "neutral_pct": 1.0,
       "transition_risk": "Low",
-      "confidence": 0.985
+      "confidence": 0.99
     },
     {
       "date": "2024-04-11",
@@ -7529,49 +7518,38 @@
     {
       "date": "2024-04-12",
       "regime": "Risk-Off-Stable",
-      "risk_on_pct": 24.7,
+      "risk_on_pct": 48.0,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 75.3,
-      "neutral_pct": 75.3,
-      "transition_risk": "Moderate",
-      "confidence": 0.753
+      "risk_off_stable_pct": 52.0,
+      "neutral_pct": 52.0,
+      "transition_risk": "Elevated",
+      "confidence": 0.52
     },
     {
       "date": "2024-04-15",
       "regime": "Risk-Off-Stable",
-      "risk_on_pct": 0.3,
+      "risk_on_pct": 1.5,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 99.7,
-      "neutral_pct": 99.7,
+      "risk_off_stable_pct": 98.5,
+      "neutral_pct": 98.5,
       "transition_risk": "Low",
-      "confidence": 0.997
+      "confidence": 0.985
     },
     {
       "date": "2024-04-16",
       "regime": "Risk-Off-Stable",
-      "risk_on_pct": 0.2,
+      "risk_on_pct": 0.6,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 99.8,
-      "neutral_pct": 99.8,
+      "risk_off_stable_pct": 99.4,
+      "neutral_pct": 99.4,
       "transition_risk": "Low",
-      "confidence": 0.998
+      "confidence": 0.994
     },
     {
       "date": "2024-04-17",
-      "regime": "Risk-Off-Stable",
-      "risk_on_pct": 0.0,
-      "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 100.0,
-      "neutral_pct": 100.0,
-      "transition_risk": "Low",
-      "confidence": 1.0
-    },
-    {
-      "date": "2024-04-18",
       "regime": "Risk-Off-Stable",
       "risk_on_pct": 0.1,
       "risk_on_retreat_pct": 0.0,
@@ -7582,169 +7560,180 @@
       "confidence": 0.999
     },
     {
-      "date": "2024-04-19",
+      "date": "2024-04-18",
       "regime": "Risk-Off-Stable",
-      "risk_on_pct": 0.2,
+      "risk_on_pct": 0.4,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 99.8,
-      "neutral_pct": 99.8,
+      "risk_off_stable_pct": 99.6,
+      "neutral_pct": 99.6,
       "transition_risk": "Low",
-      "confidence": 0.998
+      "confidence": 0.996
+    },
+    {
+      "date": "2024-04-19",
+      "regime": "Risk-Off-Stable",
+      "risk_on_pct": 0.8,
+      "risk_on_retreat_pct": 0.0,
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 99.2,
+      "neutral_pct": 99.2,
+      "transition_risk": "Low",
+      "confidence": 0.992
     },
     {
       "date": "2024-04-22",
       "regime": "Risk-On",
-      "risk_on_pct": 63.6,
+      "risk_on_pct": 80.7,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 36.4,
-      "neutral_pct": 36.4,
-      "transition_risk": "Elevated",
-      "confidence": 0.636
+      "risk_off_stable_pct": 19.3,
+      "neutral_pct": 19.3,
+      "transition_risk": "Moderate",
+      "confidence": 0.807
     },
     {
       "date": "2024-04-23",
       "regime": "Risk-On",
-      "risk_on_pct": 99.3,
-      "risk_on_retreat_pct": 0.5,
+      "risk_on_pct": 99.9,
+      "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 0.2,
-      "neutral_pct": 0.7,
+      "risk_off_stable_pct": 0.1,
+      "neutral_pct": 0.1,
       "transition_risk": "Low",
-      "confidence": 0.993
+      "confidence": 0.999
     },
     {
       "date": "2024-04-24",
       "regime": "Risk-On",
-      "risk_on_pct": 97.2,
+      "risk_on_pct": 98.4,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 2.8,
-      "neutral_pct": 2.8,
+      "risk_off_stable_pct": 1.6,
+      "neutral_pct": 1.6,
       "transition_risk": "Low",
-      "confidence": 0.972
+      "confidence": 0.984
     },
     {
       "date": "2024-04-25",
       "regime": "Risk-On",
-      "risk_on_pct": 97.9,
-      "risk_on_retreat_pct": 2.0,
+      "risk_on_pct": 99.9,
+      "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.1,
-      "neutral_pct": 2.1,
+      "neutral_pct": 0.1,
       "transition_risk": "Low",
-      "confidence": 0.979
+      "confidence": 0.999
     },
     {
       "date": "2024-04-26",
       "regime": "Risk-On",
-      "risk_on_pct": 99.5,
+      "risk_on_pct": 99.9,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 0.5,
-      "neutral_pct": 0.5,
+      "risk_off_stable_pct": 0.1,
+      "neutral_pct": 0.1,
       "transition_risk": "Low",
-      "confidence": 0.995
+      "confidence": 0.999
     },
     {
       "date": "2024-04-29",
       "regime": "Risk-On",
-      "risk_on_pct": 98.2,
+      "risk_on_pct": 99.9,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 1.8,
-      "neutral_pct": 1.8,
+      "risk_off_stable_pct": 0.1,
+      "neutral_pct": 0.1,
       "transition_risk": "Low",
-      "confidence": 0.982
+      "confidence": 0.999
     },
     {
       "date": "2024-04-30",
       "regime": "Risk-On",
-      "risk_on_pct": 59.6,
+      "risk_on_pct": 94.0,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 40.4,
-      "neutral_pct": 40.4,
-      "transition_risk": "Elevated",
-      "confidence": 0.596
+      "risk_off_stable_pct": 6.0,
+      "neutral_pct": 6.0,
+      "transition_risk": "Low",
+      "confidence": 0.94
     },
     {
       "date": "2024-05-01",
       "regime": "Risk-On",
-      "risk_on_pct": 79.1,
+      "risk_on_pct": 97.5,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 20.9,
-      "neutral_pct": 20.9,
-      "transition_risk": "Moderate",
-      "confidence": 0.791
+      "risk_off_stable_pct": 2.5,
+      "neutral_pct": 2.5,
+      "transition_risk": "Low",
+      "confidence": 0.975
     },
     {
       "date": "2024-05-02",
       "regime": "Risk-On",
-      "risk_on_pct": 99.0,
+      "risk_on_pct": 99.7,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 1.0,
-      "neutral_pct": 1.0,
+      "risk_off_stable_pct": 0.3,
+      "neutral_pct": 0.3,
       "transition_risk": "Low",
-      "confidence": 0.99
+      "confidence": 0.997
     },
     {
       "date": "2024-05-03",
       "regime": "Risk-On",
-      "risk_on_pct": 99.0,
-      "risk_on_retreat_pct": 1.0,
+      "risk_on_pct": 100.0,
+      "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 1.0,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.99
+      "confidence": 1.0
     },
     {
       "date": "2024-05-06",
       "regime": "Risk-On",
-      "risk_on_pct": 97.3,
-      "risk_on_retreat_pct": 2.7,
+      "risk_on_pct": 100.0,
+      "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 2.7,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.973
+      "confidence": 1.0
     },
     {
       "date": "2024-05-07",
       "regime": "Risk-On",
-      "risk_on_pct": 93.2,
-      "risk_on_retreat_pct": 6.8,
+      "risk_on_pct": 100.0,
+      "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 6.8,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.932
+      "confidence": 1.0
     },
     {
       "date": "2024-05-08",
       "regime": "Risk-On",
-      "risk_on_pct": 91.8,
-      "risk_on_retreat_pct": 8.2,
+      "risk_on_pct": 100.0,
+      "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 8.2,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.918
+      "confidence": 1.0
     },
     {
       "date": "2024-05-09",
       "regime": "Risk-On",
-      "risk_on_pct": 98.3,
-      "risk_on_retreat_pct": 1.7,
+      "risk_on_pct": 100.0,
+      "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 1.7,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.983
+      "confidence": 1.0
     },
     {
       "date": "2024-05-10",
@@ -7760,13 +7749,13 @@
     {
       "date": "2024-05-13",
       "regime": "Risk-On",
-      "risk_on_pct": 99.9,
-      "risk_on_retreat_pct": 0.1,
+      "risk_on_pct": 100.0,
+      "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.1,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 1.0
     },
     {
       "date": "2024-05-14",
@@ -7782,35 +7771,35 @@
     {
       "date": "2024-05-15",
       "regime": "Risk-On",
-      "risk_on_pct": 99.9,
-      "risk_on_retreat_pct": 0.1,
+      "risk_on_pct": 100.0,
+      "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.1,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 1.0
     },
     {
       "date": "2024-05-16",
       "regime": "Risk-On",
-      "risk_on_pct": 98.7,
-      "risk_on_retreat_pct": 1.3,
+      "risk_on_pct": 100.0,
+      "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 1.3,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.987
+      "confidence": 1.0
     },
     {
       "date": "2024-05-17",
       "regime": "Risk-On",
-      "risk_on_pct": 99.9,
-      "risk_on_retreat_pct": 0.1,
+      "risk_on_pct": 100.0,
+      "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.1,
+      "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 1.0
     },
     {
       "date": "2024-05-20",
@@ -7925,13 +7914,13 @@
     {
       "date": "2024-06-04",
       "regime": "Risk-On",
-      "risk_on_pct": 98.9,
-      "risk_on_retreat_pct": 1.1,
+      "risk_on_pct": 99.0,
+      "risk_on_retreat_pct": 1.0,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 1.1,
+      "neutral_pct": 1.0,
       "transition_risk": "Low",
-      "confidence": 0.989
+      "confidence": 0.99
     },
     {
       "date": "2024-06-05",
@@ -8013,13 +8002,13 @@
     {
       "date": "2024-06-14",
       "regime": "Risk-On",
-      "risk_on_pct": 99.9,
+      "risk_on_pct": 100.0,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
       "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 1.0
     },
     {
       "date": "2024-06-17",
@@ -8035,13 +8024,13 @@
     {
       "date": "2024-06-18",
       "regime": "Risk-On",
-      "risk_on_pct": 99.9,
+      "risk_on_pct": 100.0,
       "risk_on_retreat_pct": 0.0,
-      "risk_off_pct": 0.1,
+      "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
       "neutral_pct": 0.0,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 1.0
     },
     {
       "date": "2024-06-20",
@@ -8068,24 +8057,24 @@
     {
       "date": "2024-06-24",
       "regime": "Risk-On",
-      "risk_on_pct": 100.0,
-      "risk_on_retreat_pct": 0.0,
+      "risk_on_pct": 98.9,
+      "risk_on_retreat_pct": 1.1,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.0,
+      "neutral_pct": 1.1,
       "transition_risk": "Low",
-      "confidence": 1.0
+      "confidence": 0.989
     },
     {
       "date": "2024-06-25",
       "regime": "Risk-On",
-      "risk_on_pct": 99.6,
-      "risk_on_retreat_pct": 0.4,
+      "risk_on_pct": 99.9,
+      "risk_on_retreat_pct": 0.1,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.4,
+      "neutral_pct": 0.1,
       "transition_risk": "Low",
-      "confidence": 0.996
+      "confidence": 0.999
     },
     {
       "date": "2024-06-26",
@@ -8211,156 +8200,156 @@
     {
       "date": "2024-07-12",
       "regime": "Risk-On",
-      "risk_on_pct": 99.9,
-      "risk_on_retreat_pct": 0.1,
+      "risk_on_pct": 99.6,
+      "risk_on_retreat_pct": 0.4,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 0.1,
+      "neutral_pct": 0.4,
       "transition_risk": "Low",
-      "confidence": 0.999
+      "confidence": 0.996
     },
     {
       "date": "2024-07-15",
       "regime": "Risk-On",
-      "risk_on_pct": 98.3,
-      "risk_on_retreat_pct": 1.7,
+      "risk_on_pct": 98.4,
+      "risk_on_retreat_pct": 1.6,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 1.7,
+      "neutral_pct": 1.6,
       "transition_risk": "Low",
-      "confidence": 0.983
+      "confidence": 0.984
     },
     {
       "date": "2024-07-16",
       "regime": "Risk-On",
-      "risk_on_pct": 97.4,
-      "risk_on_retreat_pct": 2.6,
+      "risk_on_pct": 96.6,
+      "risk_on_retreat_pct": 3.4,
       "risk_off_pct": 0.0,
       "risk_off_stable_pct": 0.0,
-      "neutral_pct": 2.6,
+      "neutral_pct": 3.4,
       "transition_risk": "Low",
-      "confidence": 0.974
+      "confidence": 0.966
     },
     {
       "date": "2024-07-17",
       "regime": "Risk-On",
-      "risk_on_pct": 98.3,
+      "risk_on_pct": 98.6,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 1.7,
-      "neutral_pct": 1.7,
+      "risk_off_stable_pct": 1.4,
+      "neutral_pct": 1.4,
       "transition_risk": "Low",
-      "confidence": 0.983
+      "confidence": 0.986
     },
     {
       "date": "2024-07-18",
-      "regime": "Risk-Off-Stable",
-      "risk_on_pct": 44.7,
+      "regime": "Risk-On",
+      "risk_on_pct": 64.5,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 55.3,
-      "neutral_pct": 55.3,
+      "risk_off_stable_pct": 35.5,
+      "neutral_pct": 35.5,
       "transition_risk": "Elevated",
-      "confidence": 0.553
+      "confidence": 0.645
     },
     {
       "date": "2024-07-19",
       "regime": "Risk-Off-Stable",
-      "risk_on_pct": 33.2,
+      "risk_on_pct": 47.8,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 66.8,
-      "neutral_pct": 66.8,
+      "risk_off_stable_pct": 52.2,
+      "neutral_pct": 52.2,
       "transition_risk": "Elevated",
-      "confidence": 0.668
+      "confidence": 0.522
     },
     {
       "date": "2024-07-22",
       "regime": "Risk-On",
-      "risk_on_pct": 79.5,
+      "risk_on_pct": 88.8,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 20.5,
-      "neutral_pct": 20.5,
+      "risk_off_stable_pct": 11.2,
+      "neutral_pct": 11.2,
       "transition_risk": "Moderate",
-      "confidence": 0.795
+      "confidence": 0.888
     },
     {
       "date": "2024-07-23",
       "regime": "Risk-On",
-      "risk_on_pct": 95.3,
+      "risk_on_pct": 97.3,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 4.7,
-      "neutral_pct": 4.7,
+      "risk_off_stable_pct": 2.7,
+      "neutral_pct": 2.7,
       "transition_risk": "Low",
-      "confidence": 0.953
+      "confidence": 0.973
     },
     {
       "date": "2024-07-24",
       "regime": "Risk-Off-Stable",
-      "risk_on_pct": 7.3,
+      "risk_on_pct": 5.1,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 92.7,
-      "neutral_pct": 92.7,
+      "risk_off_stable_pct": 94.9,
+      "neutral_pct": 94.9,
       "transition_risk": "Low",
-      "confidence": 0.927
+      "confidence": 0.949
     },
     {
       "date": "2024-07-25",
       "regime": "Risk-Off-Stable",
-      "risk_on_pct": 13.4,
+      "risk_on_pct": 14.0,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 86.6,
-      "neutral_pct": 86.6,
+      "risk_off_stable_pct": 86.0,
+      "neutral_pct": 86.0,
       "transition_risk": "Moderate",
-      "confidence": 0.866
+      "confidence": 0.86
     },
     {
       "date": "2024-07-26",
       "regime": "Risk-Off-Stable",
-      "risk_on_pct": 28.5,
+      "risk_on_pct": 40.7,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 71.5,
-      "neutral_pct": 71.5,
-      "transition_risk": "Moderate",
-      "confidence": 0.715
+      "risk_off_stable_pct": 59.3,
+      "neutral_pct": 59.3,
+      "transition_risk": "Elevated",
+      "confidence": 0.593
     },
     {
       "date": "2024-07-29",
       "regime": "Risk-Off-Stable",
-      "risk_on_pct": 16.9,
+      "risk_on_pct": 23.6,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 83.1,
-      "neutral_pct": 83.1,
+      "risk_off_stable_pct": 76.4,
+      "neutral_pct": 76.4,
       "transition_risk": "Moderate",
-      "confidence": 0.831
+      "confidence": 0.764
     },
     {
       "date": "2024-07-30",
       "regime": "Risk-Off-Stable",
-      "risk_on_pct": 4.1,
+      "risk_on_pct": 9.9,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 95.9,
-      "neutral_pct": 95.9,
+      "risk_off_stable_pct": 90.1,
+      "neutral_pct": 90.1,
       "transition_risk": "Low",
-      "confidence": 0.959
+      "confidence": 0.901
     },
     {
       "date": "2024-07-31",
       "regime": "Risk-Off-Stable",
-      "risk_on_pct": 0.3,
+      "risk_on_pct": 0.6,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 99.7,
-      "neutral_pct": 99.7,
+      "risk_off_stable_pct": 99.4,
+      "neutral_pct": 99.4,
       "transition_risk": "Low",
-      "confidence": 0.997
+      "confidence": 0.994
     },
     {
       "date": "2024-08-01",
@@ -8420,13 +8409,13 @@
     {
       "date": "2024-08-08",
       "regime": "Risk-Off-Stable",
-      "risk_on_pct": 0.0,
+      "risk_on_pct": 0.4,
       "risk_on_retreat_pct": 0.0,
       "risk_off_pct": 0.0,
-      "risk_off_stable_pct": 100.0,
-      "neutral_pct": 100.0,
+      "risk_off_stable_pct": 99.6,
+      "neutral_pct": 99.6,
       "transition_risk": "Low",
-      "confidence": 1.0
+      "confidence": 0.996
     },
     {
       "date": "2024-08-09",
@@ -13806,13 +13795,20 @@
       "neutral_pct": 0.0,
       "transition_risk": "Low",
       "confidence": 1.0
+    },
+    {
+      "date": "2026-07-24",
+      "regime": "Risk-On",
+      "risk_on_pct": 100.0,
+      "risk_on_retreat_pct": 0.0,
+      "risk_off_pct": 0.0,
+      "risk_off_stable_pct": 0.0,
+      "neutral_pct": 0.0,
+      "transition_risk": "Low",
+      "confidence": 1.0
     }
   ],
   "rule_based": [
-    {
-      "date": "2021-07-23",
-      "regime": "bull"
-    },
     {
       "date": "2021-07-26",
       "regime": "bull"
@@ -18828,13 +18824,13 @@
     {
       "date": "2026-07-23",
       "regime": "bull"
+    },
+    {
+      "date": "2026-07-24",
+      "regime": "bull"
     }
   ],
   "spy": [
-    {
-      "date": "2021-07-23",
-      "close": 411.18
-    },
     {
       "date": "2021-07-26",
       "close": 412.19
@@ -19533,7 +19529,7 @@
     },
     {
       "date": "2022-04-01",
-      "close": 427.48
+      "close": 427.49
     },
     {
       "date": "2022-04-04",
@@ -20477,7 +20473,7 @@
     },
     {
       "date": "2023-03-13",
-      "close": 368.47
+      "close": 368.48
     },
     {
       "date": "2023-03-14",
@@ -23850,6 +23846,10 @@
     {
       "date": "2026-07-23",
       "close": 738.18
+    },
+    {
+      "date": "2026-07-24",
+      "close": 738.93
     }
   ]
 }
