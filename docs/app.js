@@ -18,6 +18,8 @@ const REGIME = {
 
 // HMM probability order (fixed — matches the four states, bullish→bearish).
 const HMM_ORDER = ["Risk-On", "Risk-On-Retreat", "Risk-Off", "Risk-Off-Stable"];
+// Rule-based composite order (bullish→bearish), for the validation panel.
+const RULE_ORDER = ["bull", "bull_high_vol", "range", "high_vol", "bear_high_vol", "bear"];
 
 // Legend entries for the ribbon (colour → what it means across both engines).
 const LEGEND = [
@@ -56,12 +58,14 @@ const el = (tag, attrs = {}) => {
 Promise.all([
   fetch("data/latest.json").then((r) => r.json()),
   fetch("data/history.json").then((r) => r.json()),
+  fetch("data/validation.json").then((r) => r.json()),
 ])
-  .then(([latest, history]) => {
+  .then(([latest, history, validation]) => {
     renderLatest(latest);
     renderProbBars(latest.hmm.probabilities);
     renderLegend();
     renderRibbon(history);
+    initValidation(validation);
     window.addEventListener("resize", debounce(() => renderRibbon(history), 150));
   })
   .catch((err) => {
@@ -141,6 +145,65 @@ function renderLegend() {
   $("ribbon-legend").innerHTML = LEGEND.map(([k, lbl]) =>
     `<span class="item" style="--accent:${cvar(k)}"><span class="sw"></span>${lbl}</span>`
   ).join("");
+}
+
+// ── Validation panel ────────────────────────────────────────────────────────
+const valState = { data: null, engine: "hmm", horizon: "21" };
+
+function initValidation(v) {
+  valState.data = v;
+  const start = v.range?.start?.slice(0, 4), end = v.range?.end?.slice(0, 4);
+  $("val-caveat").textContent =
+    `Descriptive, in-sample association over ${start}–${end} using overlapping windows — ` +
+    `not a forecast. The HMM's parameters were fit on 2022–2026, so most of this span sits ` +
+    `outside its training window. "% up" = share of windows with a positive return; n = sample size.`;
+
+  $("val-engine").addEventListener("click", (e) => {
+    const b = e.target.closest("button"); if (!b) return;
+    valState.engine = b.dataset.engine;
+    setActive($("val-engine"), b);
+    renderValidation();
+  });
+  $("val-horizon").addEventListener("click", (e) => {
+    const b = e.target.closest("button"); if (!b) return;
+    valState.horizon = b.dataset.h;
+    setActive($("val-horizon"), b);
+    renderValidation();
+  });
+  renderValidation();
+}
+
+function setActive(group, btn) {
+  [...group.children].forEach((c) => c.classList.toggle("active", c === btn));
+}
+
+function renderValidation() {
+  const { data, engine, horizon } = valState;
+  const rows = (data[engine] && data[engine][horizon]) || [];
+  const byRegime = new Map(rows.map((r) => [r.regime, r]));
+  const order = engine === "hmm" ? HMM_ORDER : RULE_ORDER;
+  const sorted = order.map((r) => byRegime.get(r)).filter(Boolean);
+  if (!sorted.length) { $("val-bars").innerHTML = "<p class='sub'>No data.</p>"; return; }
+
+  const vals = sorted.map((r) => r.mean);
+  const dMin = Math.min(0, ...vals), dMax = Math.max(0, ...vals);
+  const span = (dMax - dMin) || 1;
+  const zero = ((0 - dMin) / span) * 100;
+
+  $("val-bars").innerHTML = sorted.map((r) => {
+    const m = meta(r.regime);
+    const vPos = ((r.mean - dMin) / span) * 100;
+    const left = r.mean >= 0 ? zero : vPos;
+    const width = Math.max(Math.abs(vPos - zero), 0.6);
+    return `<div class="vrow" style="--accent:${cvar(m.k)}">
+      <span class="vlbl"><span class="sw"></span>${m.label}</span>
+      <span class="vbar-area">
+        <span class="vbar-zero" style="left:${zero}%"></span>
+        <span class="vbar-fill" style="left:${left}%;width:${width}%"></span>
+      </span>
+      <span class="vstats"><b>${r.mean >= 0 ? "+" : ""}${r.mean}%</b> · ${r.hit_rate}% up · n=${r.n}</span>
+    </div>`;
+  }).join("");
 }
 
 // ── Historical ribbon (SVG) ─────────────────────────────────────────────────

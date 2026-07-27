@@ -88,6 +88,25 @@
       </div>
     </section>
 
+    <!-- Validation: do the regimes separate outcomes? -->
+    <section class="panel">
+      <h2>Do the regimes separate outcomes?</h2>
+      <p class="sub">Mean forward SPY return following each regime — a check that the labels carry information.</p>
+      <div class="toggles">
+        <div class="toggle-group" id="val-engine" role="group" aria-label="Engine">
+          <button data-engine="hmm" class="active">Statistical HMM</button>
+          <button data-engine="rule_based">Rule-based</button>
+        </div>
+        <div class="toggle-group" id="val-horizon" role="group" aria-label="Horizon">
+          <button data-h="5">5 days</button>
+          <button data-h="21" class="active">21 days</button>
+          <button data-h="63">63 days</button>
+        </div>
+      </div>
+      <div class="vbars" id="val-bars"></div>
+      <p class="caveat" id="val-caveat"></p>
+    </section>
+
     <!-- Methodology -->
     <section class="panel methodology">
       <h2>How it works</h2>

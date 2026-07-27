@@ -208,6 +208,28 @@ section { margin-bottom: 22px; }
 #ribbon .crosshair { stroke: var(--ink-muted); stroke-width: 1; stroke-dasharray: 3 3; opacity: 0; }
 #ribbon .hover-dot { fill: var(--ink); opacity: 0; }
 
+/* ── Validation panel ── */
+.toggles { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 18px; }
+.toggle-group { display: inline-flex; border: 1px solid var(--border); border-radius: 9px; overflow: hidden; }
+.toggle-group button {
+  border: 0; border-right: 1px solid var(--border); background: var(--surface-2);
+  color: var(--ink-2); padding: 6px 13px; font: inherit; font-size: .8rem; cursor: pointer;
+}
+.toggle-group button:last-child { border-right: 0; }
+.toggle-group button:hover { color: var(--ink); }
+.toggle-group button.active { background: var(--ink); color: var(--surface); font-weight: 600; }
+
+.vbars { display: flex; flex-direction: column; gap: 10px; }
+.vrow { display: grid; grid-template-columns: 148px 1fr 176px; align-items: center; gap: 14px; }
+.vrow .vlbl { display: flex; align-items: center; gap: 8px; font-size: .85rem; }
+.vrow .vlbl .sw { width: 11px; height: 11px; border-radius: 3px; background: var(--accent); flex: none; }
+.vbar-area { position: relative; height: 26px; background: var(--surface-2); border: 1px solid var(--border); border-radius: 7px; }
+.vbar-zero { position: absolute; top: -1px; bottom: -1px; width: 1px; background: var(--ink-muted); opacity: .55; }
+.vbar-fill { position: absolute; top: 3px; bottom: 3px; background: var(--accent); border-radius: 3px; min-width: 2px; transition: left .35s ease, width .35s ease; }
+.vstats { text-align: right; font-size: .8rem; font-variant-numeric: tabular-nums; color: var(--ink-muted); }
+.vstats b { color: var(--ink); font-size: .9rem; }
+.caveat { margin-top: 14px; font-size: .78rem; color: var(--ink-muted); line-height: 1.5; }
+
 /* ── Methodology ── */
 .methodology h3 { font-size: .9rem; margin: 18px 0 6px; }
 .methodology p, .methodology li { color: var(--ink-2); font-size: .88rem; }

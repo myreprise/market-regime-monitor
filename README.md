@@ -86,6 +86,26 @@ docs/data/history.json    # daily regime time series + SPY close (the ribbon)
 
 ## Architecture
 
+```mermaid
+flowchart LR
+    Y["yfinance<br/>SPY · VIX · 11 SPDRs<br/>QQQ HYG IEF TLT GLD CPER<br/>IRX TNX"] --> P
+
+    subgraph P["regime_pipeline.py"]
+        direction TB
+        R["Rule-based composite<br/>trend · vol · chop"]
+        H["4-state HMM<br/>scaler → PCA → posterior"]
+    end
+
+    P --> J["docs/data/*.json<br/>latest · history · validation"]
+    J --> S["Static site (docs/)<br/>vanilla HTML · CSS · SVG"]
+    S --> G["GitHub Pages"]
+    CRON["GitHub Actions<br/>weekday cron"] -.reruns.-> P
+    CRON -.commits JSON.-> J
+
+    style P fill:#15803d20,stroke:#15803d
+    style CRON fill:#2563eb20,stroke:#2563eb
+```
+
 ```
 regime_monitor/
 ├── data.py                 # yfinance fetch + on-disk parquet cache (offline-capable)
@@ -106,6 +126,20 @@ Action (`.github/workflows/update.yml`) reruns the pipeline each weekday evening
 commits the fresh `docs/data/*.json`, and GitHub Pages republishes automatically.
 
 ---
+
+## Does it work? (validation)
+
+The site's **"Do the regimes separate outcomes?"** panel measures the mean
+forward SPY return following each regime, across 5/21/63-day horizons. The
+regimes do separate outcomes — and not naively: over 1998–2026, **Risk-Off-Stable**
+(the recovery/accumulation state) carries the *highest* forward returns and hit
+rate (~77% positive at 63 days), while **Risk-Off** (crisis) carries the
+*lowest* (~59%). That "buy the recovery, not the crisis" ordering is the
+economically sensible result.
+
+This is an honest, **descriptive in-sample** association (overlapping windows),
+not a forecast — and notably, the HMM's parameters were fit only on 2022–2026, so
+most of that validation span sits *outside* its training window.
 
 ## Honest notes & limitations
 

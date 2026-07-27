@@ -92,3 +92,13 @@ def test_emitted_json_schema(tmp_path):
     history = json.loads((tmp_path / "history.json").read_text())
     for key in ("hmm", "rule_based", "spy"):
         assert key in history and len(history[key]) > 0
+    # trimmed history: hmm records carry only date + regime
+    assert set(history["hmm"][0].keys()) == {"date", "regime"}
+
+    validation = json.loads((tmp_path / "validation.json").read_text())
+    assert validation["horizons"] == [5, 21, 63]
+    for engine in ("hmm", "rule_based"):
+        rows = validation[engine]["21"]
+        assert rows and all(
+            {"regime", "mean", "median", "hit_rate", "n"} <= set(r) for r in rows
+        )
