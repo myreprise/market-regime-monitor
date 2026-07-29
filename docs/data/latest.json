@@ -1,22 +1,22 @@
 {
-  "as_of": "2026-07-28",
-  "generated_at": "2026-07-28T23:29:19Z",
-  "spy_close": 740.86,
+  "as_of": "2026-07-29",
+  "generated_at": "2026-07-29T23:30:26Z",
+  "spy_close": 729.46,
   "data_freshness": {
-    "last_bar": "2026-07-28",
+    "last_bar": "2026-07-29",
     "days_since_last_bar": 0,
     "tickers_loaded": 21
   },
   "rule_based": {
     "regime": "bull",
     "direction": "Risk-On",
-    "confidence": 0.578,
+    "confidence": 0.573,
     "trend": "up",
     "ema_stack": "bull",
     "vol": "normal",
-    "atr_percent": 1.1,
+    "atr_percent": 1.17,
     "chop": "trending",
-    "adx": 20.1
+    "adx": 21.2
   },
   "hmm": {
     "regime": "Risk-On",
