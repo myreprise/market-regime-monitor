@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-08-14",
-  "generated_at": "2026-08-14T22:39:57Z",
+  "as_of": "2026-08-17",
+  "generated_at": "2026-08-17T22:39:44Z",
   "horizons": [
     5,
     21,
@@ -8,7 +8,7 @@
   ],
   "range": {
     "start": "1998-12-22",
-    "end": "2026-08-14"
+    "end": "2026-08-17"
   },
   "hmm": {
     "5": [
@@ -17,7 +17,7 @@
         "mean": 0.09,
         "median": 0.28,
         "hit_rate": 56.9,
-        "n": 3279
+        "n": 3280
       },
       {
         "regime": "Risk-Off-Stable",
@@ -46,8 +46,8 @@
         "regime": "Risk-On",
         "mean": 0.25,
         "median": 1.0,
-        "hit_rate": 61.0,
-        "n": 3263
+        "hit_rate": 61.1,
+        "n": 3264
       },
       {
         "regime": "Risk-Off-Stable",
@@ -77,7 +77,7 @@
         "mean": 1.48,
         "median": 2.93,
         "hit_rate": 66.4,
-        "n": 3221
+        "n": 3222
       },
       {
         "regime": "Risk-Off-Stable",
@@ -108,8 +108,8 @@
         "regime": "bull",
         "mean": 0.23,
         "median": 0.36,
-        "hit_rate": 60.0,
-        "n": 5699
+        "hit_rate": 59.9,
+        "n": 5700
       },
       {
         "regime": "bear",
@@ -153,7 +153,7 @@
         "mean": 0.84,
         "median": 1.28,
         "hit_rate": 66.6,
-        "n": 5683
+        "n": 5684
       },
       {
         "regime": "bear",
@@ -197,7 +197,7 @@
         "mean": 2.68,
         "median": 3.51,
         "hit_rate": 73.4,
-        "n": 5641
+        "n": 5642
       },
       {
         "regime": "bear",
