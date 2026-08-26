@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-08-25",
-  "generated_at": "2026-08-25T22:41:59Z",
+  "as_of": "2026-08-26",
+  "generated_at": "2026-08-26T23:37:29Z",
   "horizons": [
     5,
     21,
@@ -8,7 +8,7 @@
   ],
   "range": {
     "start": "1998-12-22",
-    "end": "2026-08-25"
+    "end": "2026-08-26"
   },
   "hmm": {
     "5": [
@@ -17,7 +17,7 @@
         "mean": 0.09,
         "median": 0.28,
         "hit_rate": 56.8,
-        "n": 3286
+        "n": 3287
       },
       {
         "regime": "Risk-Off-Stable",
@@ -47,7 +47,7 @@
         "mean": 0.26,
         "median": 1.0,
         "hit_rate": 61.1,
-        "n": 3270
+        "n": 3271
       },
       {
         "regime": "Risk-Off-Stable",
@@ -77,7 +77,7 @@
         "mean": 1.49,
         "median": 2.93,
         "hit_rate": 66.5,
-        "n": 3228
+        "n": 3229
       },
       {
         "regime": "Risk-Off-Stable",
@@ -109,7 +109,7 @@
         "mean": 0.23,
         "median": 0.36,
         "hit_rate": 59.9,
-        "n": 5706
+        "n": 5708
       },
       {
         "regime": "bear",
@@ -122,8 +122,8 @@
         "regime": "range",
         "mean": -0.02,
         "median": 0.22,
-        "hit_rate": 54.2,
-        "n": 659
+        "hit_rate": 54.1,
+        "n": 658
       },
       {
         "regime": "bull_high_vol",
@@ -153,7 +153,7 @@
         "mean": 0.84,
         "median": 1.29,
         "hit_rate": 66.6,
-        "n": 5690
+        "n": 5692
       },
       {
         "regime": "bear",
@@ -164,10 +164,10 @@
       },
       {
         "regime": "range",
-        "mean": 0.36,
+        "mean": 0.35,
         "median": 1.32,
-        "hit_rate": 58.6,
-        "n": 659
+        "hit_rate": 58.5,
+        "n": 658
       },
       {
         "regime": "bull_high_vol",
@@ -197,7 +197,7 @@
         "mean": 2.68,
         "median": 3.5,
         "hit_rate": 73.5,
-        "n": 5648
+        "n": 5650
       },
       {
         "regime": "bear",
@@ -208,10 +208,10 @@
       },
       {
         "regime": "range",
-        "mean": 3.6,
+        "mean": 3.59,
         "median": 4.53,
         "hit_rate": 71.3,
-        "n": 659
+        "n": 658
       },
       {
         "regime": "bull_high_vol",
