@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-09-24",
-  "generated_at": "2026-09-24T22:35:09Z",
+  "as_of": "2026-09-25",
+  "generated_at": "2026-09-25T22:36:11Z",
   "horizons": [
     5,
     21,
@@ -8,7 +8,7 @@
   ],
   "range": {
     "start": "1998-12-22",
-    "end": "2026-09-24"
+    "end": "2026-09-25"
   },
   "hmm": {
     "5": [
@@ -17,7 +17,7 @@
         "mean": 0.09,
         "median": 0.28,
         "hit_rate": 56.8,
-        "n": 3307
+        "n": 3308
       },
       {
         "regime": "Risk-Off-Stable",
@@ -47,7 +47,7 @@
         "mean": 0.26,
         "median": 0.99,
         "hit_rate": 61.1,
-        "n": 3291
+        "n": 3292
       },
       {
         "regime": "Risk-Off-Stable",
@@ -74,10 +74,10 @@
     "63": [
       {
         "regime": "Risk-On",
-        "mean": 1.49,
+        "mean": 1.5,
         "median": 2.93,
         "hit_rate": 66.7,
-        "n": 3249
+        "n": 3250
       },
       {
         "regime": "Risk-Off-Stable",
@@ -121,9 +121,9 @@
       {
         "regime": "range",
         "mean": -0.02,
-        "median": 0.22,
-        "hit_rate": 54.2,
-        "n": 657
+        "median": 0.23,
+        "hit_rate": 54.3,
+        "n": 658
       },
       {
         "regime": "bull_high_vol",
@@ -164,10 +164,10 @@
       },
       {
         "regime": "range",
-        "mean": 0.35,
+        "mean": 0.36,
         "median": 1.32,
-        "hit_rate": 58.4,
-        "n": 657
+        "hit_rate": 58.5,
+        "n": 658
       },
       {
         "regime": "bull_high_vol",
@@ -208,10 +208,10 @@
       },
       {
         "regime": "range",
-        "mean": 3.59,
-        "median": 4.53,
-        "hit_rate": 71.2,
-        "n": 657
+        "mean": 3.6,
+        "median": 4.54,
+        "hit_rate": 71.3,
+        "n": 658
       },
       {
         "regime": "bull_high_vol",
