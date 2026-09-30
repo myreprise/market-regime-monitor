@@ -1,9 +1,9 @@
 {
-  "as_of": "2026-09-29",
-  "generated_at": "2026-09-29T22:37:39Z",
-  "spy_close": 764.2,
+  "as_of": "2026-09-30",
+  "generated_at": "2026-09-30T22:38:24Z",
+  "spy_close": 762.63,
   "data_freshness": {
-    "last_bar": "2026-09-29",
+    "last_bar": "2026-09-30",
     "days_since_last_bar": 0,
     "tickers_loaded": 21
   },
@@ -14,9 +14,9 @@
     "trend": "up",
     "ema_stack": "bull",
     "vol": "normal",
-    "atr_percent": 0.85,
+    "atr_percent": 0.86,
     "chop": "choppy",
-    "adx": 10.4
+    "adx": 9.9
   },
   "hmm": {
     "regime": "Risk-On",
