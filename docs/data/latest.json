@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-10-15",
-  "generated_at": "2026-10-15T22:36:11Z",
-  "spy_close": 771.79,
+  "as_of": "2026-10-16",
+  "generated_at": "2026-10-16T22:36:19Z",
+  "spy_close": 763.25,
   "data_freshness": {
-    "last_bar": "2026-10-15",
+    "last_bar": "2026-10-16",
     "days_since_last_bar": 0,
     "tickers_loaded": 21
   },
   "rule_based": {
     "regime": "bull",
     "direction": "Risk-On",
-    "confidence": 0.438,
+    "confidence": 0.437,
     "trend": "up",
     "ema_stack": "bull",
     "vol": "normal",
-    "atr_percent": 0.85,
+    "atr_percent": 0.92,
     "chop": "choppy",
-    "adx": 10.1
+    "adx": 11.1
   },
   "hmm": {
     "regime": "Risk-On",
-    "confidence": 1.0,
+    "confidence": 0.995,
     "transition_risk": "Low",
     "probabilities": {
-      "Risk-On": 100.0,
+      "Risk-On": 99.5,
       "Risk-On-Retreat": 0.0,
       "Risk-Off": 0.0,
-      "Risk-Off-Stable": 0.0
+      "Risk-Off-Stable": 0.5
     }
   },
   "agreement": true
