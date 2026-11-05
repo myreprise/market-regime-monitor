@@ -1,22 +1,22 @@
 {
-  "as_of": "2026-11-04",
-  "generated_at": "2026-11-04T22:33:46Z",
-  "spy_close": 766.81,
+  "as_of": "2026-11-05",
+  "generated_at": "2026-11-05T22:33:45Z",
+  "spy_close": 733.0,
   "data_freshness": {
-    "last_bar": "2026-11-04",
+    "last_bar": "2026-11-05",
     "days_since_last_bar": 0,
     "tickers_loaded": 21
   },
   "rule_based": {
     "regime": "range",
     "direction": "Range / Neutral",
-    "confidence": 0.408,
+    "confidence": 0.439,
     "trend": "flat",
     "ema_stack": "mixed",
     "vol": "normal",
-    "atr_percent": 1.09,
+    "atr_percent": 1.45,
     "chop": "choppy",
-    "adx": 16.0
+    "adx": 17.0
   },
   "hmm": {
     "regime": "Risk-On",
