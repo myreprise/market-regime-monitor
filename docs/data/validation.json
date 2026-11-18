@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-11-17",
-  "generated_at": "2026-11-17T22:34:05Z",
+  "as_of": "2026-11-18",
+  "generated_at": "2026-11-18T22:34:09Z",
   "horizons": [
     5,
     21,
@@ -8,16 +8,16 @@
   ],
   "range": {
     "start": "1998-12-22",
-    "end": "2026-11-17"
+    "end": "2026-11-18"
   },
   "hmm": {
     "5": [
       {
         "regime": "Risk-On",
         "mean": 0.08,
-        "median": 0.27,
+        "median": 0.26,
         "hit_rate": 56.5,
-        "n": 3345
+        "n": 3346
       },
       {
         "regime": "Risk-Off-Stable",
@@ -47,7 +47,7 @@
         "mean": 0.25,
         "median": 0.96,
         "hit_rate": 60.9,
-        "n": 3329
+        "n": 3330
       },
       {
         "regime": "Risk-Off-Stable",
@@ -74,10 +74,10 @@
     "63": [
       {
         "regime": "Risk-On",
-        "mean": 1.5,
+        "mean": 1.49,
         "median": 2.93,
         "hit_rate": 66.7,
-        "n": 3287
+        "n": 3288
       },
       {
         "regime": "Risk-Off-Stable",
@@ -115,8 +115,8 @@
         "regime": "bear",
         "mean": 0.23,
         "median": 0.49,
-        "hit_rate": 58.6,
-        "n": 853
+        "hit_rate": 58.5,
+        "n": 854
       },
       {
         "regime": "range",
@@ -153,7 +153,7 @@
         "mean": 0.83,
         "median": 1.27,
         "hit_rate": 66.4,
-        "n": 5749
+        "n": 5750
       },
       {
         "regime": "bear",
@@ -197,7 +197,7 @@
         "mean": 2.67,
         "median": 3.49,
         "hit_rate": 73.5,
-        "n": 5707
+        "n": 5708
       },
       {
         "regime": "bear",
