@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-11-19",
-  "generated_at": "2026-11-19T22:33:32Z",
-  "spy_close": 715.87,
+  "as_of": "2026-11-20",
+  "generated_at": "2026-11-20T22:33:44Z",
+  "spy_close": 689.81,
   "data_freshness": {
-    "last_bar": "2026-11-19",
+    "last_bar": "2026-11-20",
     "days_since_last_bar": 0,
     "tickers_loaded": 21
   },
   "rule_based": {
     "regime": "bear",
     "direction": "Risk-Off",
-    "confidence": 0.577,
+    "confidence": 0.575,
     "trend": "down",
     "ema_stack": "mixed",
     "vol": "normal",
-    "atr_percent": 1.71,
+    "atr_percent": 1.97,
     "chop": "choppy",
-    "adx": 17.2
+    "adx": 19.6
   },
   "hmm": {
     "regime": "Risk-Off-Stable",
-    "confidence": 0.992,
+    "confidence": 0.965,
     "transition_risk": "Low",
     "probabilities": {
-      "Risk-On": 0.8,
+      "Risk-On": 0.0,
       "Risk-On-Retreat": 0.0,
-      "Risk-Off": 0.0,
-      "Risk-Off-Stable": 99.2
+      "Risk-Off": 3.5,
+      "Risk-Off-Stable": 96.5
     }
   },
   "agreement": false
