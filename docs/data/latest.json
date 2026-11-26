@@ -1,10 +1,10 @@
 {
   "as_of": "2026-11-25",
-  "generated_at": "2026-11-25T22:33:28Z",
+  "generated_at": "2026-11-26T22:33:29Z",
   "spy_close": 716.7,
   "data_freshness": {
     "last_bar": "2026-11-25",
-    "days_since_last_bar": 0,
+    "days_since_last_bar": 1,
     "tickers_loaded": 21
   },
   "rule_based": {
